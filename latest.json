@@ -5,14 +5,14 @@
     "extended_data_note": "ACWR and baselines calculated from 28 days of data",
     "capability_metrics_note": "The 'capability' block in derived_metrics contains durability trend (aggregate decoupling 7d/28d) and TID comparison (7d vs 28d distribution drift). These measure HOW the athlete expresses fitness, not just load. Use these for coaching context alongside traditional load metrics. Durability trend direction matters more than absolute values.",
     "quick_stats": {
-      "total_training_hours": 7.45,
-      "total_activities": 10,
-      "total_tss": 333
+      "total_training_hours": 7.8,
+      "total_activities": 11,
+      "total_tss": 345
     }
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-03-01T17:46:52.171285",
+    "last_updated": "2026-03-01T19:00:16.909309",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.5.1"
@@ -20,10 +20,10 @@
   "alerts": [
     {
       "metric": "acwr",
-      "value": 1.54,
+      "value": 1.58,
       "severity": "alarm",
       "threshold": "0.75 / 1.35",
-      "context": "ACWR 1.54 outside safe range. Injury/overreach risk elevated.",
+      "context": "ACWR 1.58 outside safe range. Injury/overreach risk elevated.",
       "persistence_days": null,
       "tier": 2
     }
@@ -38,8 +38,8 @@
   "summary": {
     "period_description": "Last 7 days of training (including today)",
     "note": "Duration calculated from API moving_time field.",
-    "total_duration_decimal_hours": 7.45,
-    "total_activities": 10,
+    "total_duration_decimal_hours": 7.8,
+    "total_activities": 11,
     "by_activity_type": {
       "EBikeRide": {
         "duration_decimal_hours": 2.26,
@@ -66,19 +66,19 @@
         "distance_km": 14.9
       },
       "WeightTraining": {
-        "duration_decimal_hours": 0.5,
-        "count": 1,
-        "tss": 15,
+        "duration_decimal_hours": 0.85,
+        "count": 2,
+        "tss": 27,
         "distance_km": 0.0
       }
     }
   },
   "current_status": {
     "fitness": {
-      "ctl": 30.19,
-      "atl": 35.8,
-      "tsb": -5.61,
-      "ramp_rate": 2.85,
+      "ctl": 30.33,
+      "atl": 37.4,
+      "tsb": -7.07,
+      "ramp_rate": 3.0,
       "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
@@ -108,20 +108,20 @@
     "rhr_baseline_28d": 55.5,
     "latest_hrv": 24.0,
     "latest_rhr": 53,
-    "acwr": 1.54,
+    "acwr": 1.58,
     "acwr_interpretation": "danger",
-    "monotony": 1.45,
-    "monotony_interpretation": "normal (primary sport 1.02, total 1.45 inflated by multi-sport)",
+    "monotony": 1.64,
+    "monotony_interpretation": "normal (primary sport 1.02, total 1.64 inflated by multi-sport)",
     "primary_sport": "run",
     "primary_sport_monotony": 1.02,
     "primary_sport_tss_7d": 247.0,
     "effective_monotony": 1.02,
     "multi_sport_detected": true,
-    "strain": 483.0,
-    "stress_tolerance": 3.3,
-    "load_recovery_ratio": 3.3,
-    "tss_7d_total": 333.0,
-    "tss_28d_total": 864.0,
+    "strain": 566.0,
+    "stress_tolerance": 3.5,
+    "load_recovery_ratio": 3.4,
+    "tss_7d_total": 345.0,
+    "tss_28d_total": 876.0,
     "zone_distribution_7d": {
       "z1_hours": 4.23,
       "z2_hours": 1.29,
@@ -232,12 +232,12 @@
     "p_max": 402,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-03-01T17:46:52.170461",
+    "calculation_timestamp": "2026-03-01T19:00:16.908490",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
-      "activities_7d": 10,
-      "activities_28d": 31,
+      "activities_7d": 11,
+      "activities_28d": 32,
       "planned_workouts_7d": 0,
       "ftp_history_days": {
         "indoor": 0,
@@ -248,6 +248,38 @@
   "recent_activities": [
     {
       "id": "activity_1",
+      "date": "2026-03-01T19:25:00",
+      "type": "WeightTraining",
+      "name": "Kn\u00f6chel & Core",
+      "duration_hours": 0.35,
+      "distance_km": 0.0,
+      "tss": 12,
+      "intensity_factor": 58.554005,
+      "avg_power": null,
+      "normalized_power": null,
+      "avg_hr": null,
+      "max_hr": null,
+      "avg_cadence": null,
+      "avg_speed": null,
+      "max_speed": null,
+      "avg_pace": null,
+      "avg_temp": null,
+      "weather": null,
+      "humidity": null,
+      "wind_speed": null,
+      "work_kj": null,
+      "calories": null,
+      "carbs_used": null,
+      "carbs_ingested": null,
+      "variability_index": null,
+      "decoupling": null,
+      "elevation_m": null,
+      "feel": null,
+      "rpe": null,
+      "zone_distribution": null
+    },
+    {
+      "id": "activity_2",
       "date": "2026-02-28T12:34:03",
       "type": "TrailRun",
       "name": "Training Session",
@@ -287,7 +319,7 @@
       }
     },
     {
-      "id": "activity_2",
+      "id": "activity_3",
       "date": "2026-02-27T16:37:30",
       "type": "VirtualRide",
       "name": "Zwift - Easy",
@@ -336,7 +368,7 @@
       }
     },
     {
-      "id": "activity_3",
+      "id": "activity_4",
       "date": "2026-02-26T18:30:16",
       "type": "TrailRun",
       "name": "Training Session",
@@ -376,7 +408,7 @@
       }
     },
     {
-      "id": "activity_4",
+      "id": "activity_5",
       "date": "2026-02-26T08:43:22",
       "type": "EBikeRide",
       "name": "Training Session",
@@ -416,7 +448,7 @@
       }
     },
     {
-      "id": "activity_5",
+      "id": "activity_6",
       "date": "2026-02-25T20:07:11",
       "type": "Run",
       "name": "Training Session",
@@ -456,7 +488,7 @@
       }
     },
     {
-      "id": "activity_6",
+      "id": "activity_7",
       "date": "2026-02-25T08:36:51",
       "type": "EBikeRide",
       "name": "Training Session",
@@ -496,7 +528,7 @@
       }
     },
     {
-      "id": "activity_7",
+      "id": "activity_8",
       "date": "2026-02-24T19:30:00",
       "type": "WeightTraining",
       "name": "Vibes Omega ",
@@ -528,7 +560,7 @@
       "zone_distribution": null
     },
     {
-      "id": "activity_8",
+      "id": "activity_9",
       "date": "2026-02-24T08:50:15",
       "type": "EBikeRide",
       "name": "Training Session",
@@ -568,7 +600,7 @@
       }
     },
     {
-      "id": "activity_9",
+      "id": "activity_10",
       "date": "2026-02-23T18:55:02",
       "type": "Run",
       "name": "Training Session",
@@ -608,7 +640,7 @@
       }
     },
     {
-      "id": "activity_10",
+      "id": "activity_11",
       "date": "2026-02-23T08:34:40",
       "type": "EBikeRide",
       "name": "Training Session",
@@ -803,9 +835,9 @@
     }
   ],
   "weekly_summary": {
-    "total_training_hours": 7.45,
-    "total_tss": 333,
-    "activities_count": 10,
+    "total_training_hours": 7.8,
+    "total_tss": 345,
+    "activities_count": 11,
     "avg_hrv": 24.6,
     "avg_resting_hr": 55.0
   },
