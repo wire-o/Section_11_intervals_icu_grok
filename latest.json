@@ -12,7 +12,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-03-17T05:13:27.684439",
+    "last_updated": "2026-03-17T08:01:51.732884",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.5.1"
@@ -60,10 +60,10 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 25.54,
-      "atl": 13.58,
-      "tsb": 11.96,
-      "ramp_rate": -3.57,
+      "ctl": 25.68,
+      "atl": 13.77,
+      "tsb": 11.91,
+      "ramp_rate": -3.6,
       "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
@@ -78,7 +78,7 @@
       "vo2max": null
     },
     "current_metrics": {
-      "weight_kg": 73.3,
+      "weight_kg": 73.8,
       "resting_hr": 55,
       "hrv": 23.0,
       "sleep_quality": 3,
@@ -106,7 +106,7 @@
     "stress_tolerance": 0.4,
     "load_recovery_ratio": 0.5,
     "tss_7d_total": 39.0,
-    "tss_28d_total": 736.0,
+    "tss_28d_total": 744.0,
     "zone_distribution_7d": {
       "z1_hours": 0.77,
       "z2_hours": 0.16,
@@ -144,12 +144,12 @@
       "sport": "run"
     },
     "seiler_tid_28d": {
-      "z1_seconds": 46982,
+      "z1_seconds": 48076,
       "z2_seconds": 6970,
       "z3_seconds": 3753,
-      "z1_pct": 81.4,
-      "z2_pct": 12.1,
-      "z3_pct": 6.5,
+      "z1_pct": 81.8,
+      "z2_pct": 11.9,
+      "z3_pct": 6.4,
       "polarization_index": null,
       "classification": "Pyramidal"
     },
@@ -194,7 +194,7 @@
     },
     "phase_detected": "Recovery",
     "phase_triggers": [
-      "TSB 11.96 > +10"
+      "TSB 11.91 > +10"
     ],
     "seasonal_context": "Late Base / Build",
     "benchmark_indoor": {
@@ -217,12 +217,12 @@
     "p_max": 398,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-03-17T05:13:27.683616",
+    "calculation_timestamp": "2026-03-17T08:01:51.732061",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
       "activities_7d": 2,
-      "activities_28d": 25,
+      "activities_28d": 26,
       "planned_workouts_7d": 0,
       "ftp_history_days": {
         "indoor": 0,
@@ -405,7 +405,7 @@
     },
     {
       "date": "2026-03-17",
-      "weight_kg": null,
+      "weight_kg": 73.8,
       "resting_hr": 55,
       "hrv_rmssd": 23.0,
       "hrv_sdnn": null,
