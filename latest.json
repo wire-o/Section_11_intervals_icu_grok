@@ -12,7 +12,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-03-16T23:55:43.712943",
+    "last_updated": "2026-03-17T05:13:27.684439",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.5.1"
@@ -60,38 +60,38 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 26.15,
-      "atl": 15.66,
-      "tsb": 10.49,
-      "ramp_rate": -3.66,
+      "ctl": 25.54,
+      "atl": 13.58,
+      "tsb": 11.96,
+      "ramp_rate": -3.57,
       "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
       "ftp_outdoor": 200,
       "ftp_indoor": null,
-      "eftp": 173.3,
+      "eftp": 173.1,
       "lthr": 154,
       "max_hr": 177,
-      "w_prime": 13656,
-      "w_prime_kj": 13.7,
-      "p_max": 399,
-      "vo2max": 51.0
+      "w_prime": 13642,
+      "w_prime_kj": 13.6,
+      "p_max": 398,
+      "vo2max": null
     },
     "current_metrics": {
       "weight_kg": 73.3,
       "resting_hr": 55,
-      "hrv": 26.0,
+      "hrv": 23.0,
       "sleep_quality": 3,
-      "sleep_hours": 6.43
+      "sleep_hours": 7.42
     }
   },
   "derived_metrics": {
-    "recovery_index": 0.98,
-    "hrv_baseline_7d": 26.9,
-    "rhr_baseline_7d": 56,
+    "recovery_index": 0.86,
+    "hrv_baseline_7d": 27.0,
+    "rhr_baseline_7d": 55.7,
     "hrv_baseline_28d": 25.4,
     "rhr_baseline_28d": 55.5,
-    "latest_hrv": 26.0,
+    "latest_hrv": 23.0,
     "latest_rhr": 55,
     "acwr": 0.21,
     "acwr_interpretation": "undertraining",
@@ -104,9 +104,9 @@
     "multi_sport_detected": false,
     "strain": 15.0,
     "stress_tolerance": 0.4,
-    "load_recovery_ratio": 0.4,
+    "load_recovery_ratio": 0.5,
     "tss_7d_total": 39.0,
-    "tss_28d_total": 751.0,
+    "tss_28d_total": 736.0,
     "zone_distribution_7d": {
       "z1_hours": 0.77,
       "z2_hours": 0.16,
@@ -194,7 +194,7 @@
     },
     "phase_detected": "Recovery",
     "phase_triggers": [
-      "TSB 10.49 > +10"
+      "TSB 11.96 > +10"
     ],
     "seasonal_context": "Late Base / Build",
     "benchmark_indoor": {
@@ -211,18 +211,18 @@
       "benchmark_percentage": null,
       "seasonal_expected": null
     },
-    "eftp": 173.3,
-    "w_prime": 13656,
-    "w_prime_kj": 13.7,
-    "p_max": 399,
+    "eftp": 173.1,
+    "w_prime": 13642,
+    "w_prime_kj": 13.6,
+    "p_max": 398,
     "power_model_source": "wellness.sportInfo",
-    "vo2max": 51.0,
-    "calculation_timestamp": "2026-03-16T23:55:43.712158",
+    "vo2max": null,
+    "calculation_timestamp": "2026-03-17T05:13:27.683616",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
       "activities_7d": 2,
-      "activities_28d": 26,
+      "activities_28d": 25,
       "planned_workouts_7d": 0,
       "ftp_history_days": {
         "indoor": 0,
@@ -314,21 +314,6 @@
   ],
   "wellness_data": [
     {
-      "date": "2026-03-10",
-      "weight_kg": null,
-      "resting_hr": 57,
-      "hrv_rmssd": 22.0,
-      "hrv_sdnn": null,
-      "sleep_hours": 7.47,
-      "sleep_quality": 3,
-      "sleep_score": 63.0,
-      "mental_energy": null,
-      "fatigue": null,
-      "soreness": null,
-      "avg_sleeping_hr": null,
-      "vo2max": null
-    },
-    {
       "date": "2026-03-11",
       "weight_kg": null,
       "resting_hr": 56,
@@ -417,6 +402,21 @@
       "soreness": null,
       "avg_sleeping_hr": null,
       "vo2max": 51.0
+    },
+    {
+      "date": "2026-03-17",
+      "weight_kg": null,
+      "resting_hr": 55,
+      "hrv_rmssd": 23.0,
+      "hrv_sdnn": null,
+      "sleep_hours": 7.42,
+      "sleep_quality": 3,
+      "sleep_score": 77.0,
+      "mental_energy": null,
+      "fatigue": null,
+      "soreness": null,
+      "avg_sleeping_hr": null,
+      "vo2max": null
     }
   ],
   "planned_workouts": [],
@@ -424,8 +424,8 @@
     "total_training_hours": 0.93,
     "total_tss": 39,
     "activities_count": 2,
-    "avg_hrv": 26.9,
-    "avg_resting_hr": 56.0
+    "avg_hrv": 27.0,
+    "avg_resting_hr": 55.7
   },
   "race_calendar": {
     "next_race": null,
