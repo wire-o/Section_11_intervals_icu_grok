@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-23T14:44:24.856329",
+  "generated_at": "2026-03-23T17:39:37.277697",
   "version": "3.86",
   "scan_hours": 72,
   "retention_days": 8,
@@ -860,6 +860,26 @@
           "avg_hr": 120,
           "max_hr": 149,
           "avg_cadence": 48.5175,
+          "zone": 1
+        }
+      ]
+    },
+    {
+      "activity_id": "i134214144",
+      "date": "2026-03-23",
+      "type": "TrailRun",
+      "name": "Posten absammeln",
+      "interval_summary": [
+        "1x 30m32s 127bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "1832s@127bpm50rpm",
+          "duration_secs": 1832,
+          "avg_hr": 127,
+          "max_hr": 154,
+          "avg_cadence": 50.04203,
           "zone": 1
         }
       ]
