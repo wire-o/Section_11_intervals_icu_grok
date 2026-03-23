@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-23T11:30:00.958101",
+  "generated_at": "2026-03-23T14:44:24.856329",
   "version": "3.86",
   "scan_hours": 72,
   "retention_days": 8,
@@ -840,6 +840,26 @@
           "avg_hr": 132,
           "max_hr": 153,
           "avg_cadence": 79.90793,
+          "zone": 1
+        }
+      ]
+    },
+    {
+      "activity_id": "i134172235",
+      "date": "2026-03-23",
+      "type": "TrailRun",
+      "name": "Graz Trail Run",
+      "interval_summary": [
+        "1x 30m57s 120bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "1857s@120bpm49rpm",
+          "duration_secs": 1857,
+          "avg_hr": 120,
+          "max_hr": 149,
+          "avg_cadence": 48.5175,
           "zone": 1
         }
       ]
