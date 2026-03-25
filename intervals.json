@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-24T23:02:51.738543",
+  "generated_at": "2026-03-25T00:00:44.353446",
   "version": "3.86",
   "scan_hours": 72,
   "retention_days": 8,
@@ -709,46 +709,6 @@
           "avg_hr": 110,
           "max_hr": 110,
           "avg_cadence": 35.333332,
-          "zone": 1
-        }
-      ]
-    },
-    {
-      "activity_id": "i132465126",
-      "date": "2026-03-16",
-      "type": "Run",
-      "name": "Posten absammeln",
-      "interval_summary": [
-        "1x 32m16s 123bpm"
-      ],
-      "intervals": [
-        {
-          "type": "WORK",
-          "label": "1936s@123bpm60rpm",
-          "duration_secs": 1936,
-          "avg_hr": 123,
-          "max_hr": 140,
-          "avg_cadence": 59.542355,
-          "zone": 1
-        }
-      ]
-    },
-    {
-      "activity_id": "i132446526",
-      "date": "2026-03-16",
-      "type": "Run",
-      "name": "Posten setzen",
-      "interval_summary": [
-        "1x 39m57s 122bpm"
-      ],
-      "intervals": [
-        {
-          "type": "WORK",
-          "label": "2397s@122bpm56rpm",
-          "duration_secs": 2397,
-          "avg_hr": 122,
-          "max_hr": 147,
-          "avg_cadence": 56.434837,
           "zone": 1
         }
       ]
