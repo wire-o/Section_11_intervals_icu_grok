@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-25T23:52:14.115451",
+  "generated_at": "2026-03-26T05:50:46.910899",
   "version": "3.86",
   "scan_hours": 72,
   "retention_days": 8,
@@ -662,54 +662,6 @@
           "max_hr": 141,
           "avg_cadence": 54.0,
           "zone": 2
-        }
-      ]
-    },
-    {
-      "activity_id": "i132794521",
-      "date": "2026-03-17",
-      "type": "TrailRun",
-      "name": "Easy",
-      "interval_summary": [
-        "1x 34m17s 132bpm"
-      ],
-      "intervals": [
-        {
-          "type": "WORK",
-          "label": "2057s@132bpm78rpm",
-          "duration_secs": 2057,
-          "avg_hr": 132,
-          "max_hr": 143,
-          "avg_cadence": 77.6528,
-          "zone": 1
-        }
-      ]
-    },
-    {
-      "activity_id": "i132751372",
-      "date": "2026-03-17",
-      "type": "EBikeRide",
-      "name": "Commute",
-      "interval_summary": [
-        "1x 8h4m 109bpm"
-      ],
-      "intervals": [
-        {
-          "type": "WORK",
-          "label": "29051s@109bpm76rpm",
-          "duration_secs": 29051,
-          "avg_hr": 109,
-          "max_hr": 142,
-          "avg_cadence": 76.014885,
-          "zone": 1
-        },
-        {
-          "type": "RECOVERY",
-          "duration_secs": 3,
-          "avg_hr": 110,
-          "max_hr": 110,
-          "avg_cadence": 35.333332,
-          "zone": 1
         }
       ]
     },
