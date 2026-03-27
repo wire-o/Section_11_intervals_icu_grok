@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-26T22:59:06.377999",
+  "generated_at": "2026-03-27T00:00:35.063332",
   "version": "3.86",
   "scan_hours": 72,
   "retention_days": 8,
@@ -634,34 +634,6 @@
           "max_hr": 124,
           "avg_cadence": 18.0,
           "zone": 1
-        }
-      ]
-    },
-    {
-      "activity_id": "i133011847",
-      "date": "2026-03-18",
-      "type": "EBikeRide",
-      "name": "Commute",
-      "interval_summary": [
-        "1x 7h50m 119bpm"
-      ],
-      "intervals": [
-        {
-          "type": "WORK",
-          "label": "28234s@119bpm74rpm",
-          "duration_secs": 28234,
-          "avg_hr": 119,
-          "max_hr": 148,
-          "avg_cadence": 73.55334,
-          "zone": 1
-        },
-        {
-          "type": "RECOVERY",
-          "duration_secs": 5,
-          "avg_hr": 140,
-          "max_hr": 141,
-          "avg_cadence": 54.0,
-          "zone": 2
         }
       ]
     },
