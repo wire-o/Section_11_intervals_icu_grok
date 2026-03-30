@@ -62,15 +62,15 @@
       "menstrual": "menstrual_phase and menstrual_phase_predicted are not on the 1-4 scale. Values: PERIOD, FOLLICULAR, OVULATION, LUTEAL, etc."
     },
     "quick_stats": {
-      "total_training_hours": 5.25,
-      "total_training_formatted": "5h14m",
-      "total_activities": 9,
-      "total_tss": 229
+      "total_training_hours": 5.66,
+      "total_training_formatted": "5h39m",
+      "total_activities": 10,
+      "total_tss": 244
     }
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-03-30T15:22:46.089883",
+    "last_updated": "2026-03-30T16:31:12.073984",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.86"
@@ -78,17 +78,17 @@
   "alerts": [
     {
       "metric": "acwr",
-      "value": 1.3,
-      "severity": "warning",
-      "threshold": "0.8 / 1.3",
-      "context": "ACWR 1.3 at edge of optimal range. Monitor closely. Alarm at 0.75/1.35.",
+      "value": 1.36,
+      "severity": "alarm",
+      "threshold": "0.75 / 1.35",
+      "context": "ACWR 1.36 outside safe range. Injury/overreach risk elevated.",
       "persistence_days": null,
       "tier": 2
     }
   ],
   "readiness_decision": {
-    "recommendation": "go",
-    "priority": 3,
+    "recommendation": "modify",
+    "priority": 1,
     "signals": {
       "hrv": {
         "status": "green",
@@ -108,21 +108,17 @@
         "quality": 3
       },
       "acwr": {
-        "status": "green",
-        "value": 1.3
+        "status": "amber",
+        "value": 1.36
       },
       "ri": {
         "status": "green",
         "value": 1.58
-      },
-      "tsb": {
-        "status": "green",
-        "value": -3.6
       }
     },
     "signal_summary": {
-      "green": 5,
-      "amber": 1,
+      "green": 3,
+      "amber": 2,
       "red": 0,
       "unavailable": 0
     },
@@ -133,8 +129,17 @@
       "modifier_applied": "default"
     },
     "race_week_defers": false,
-    "modification": null,
-    "reason": "P3 green light. 5 green, 1 amber (threshold 2), 0 red.",
+    "modification": {
+      "triggers": [
+        "acwr"
+      ],
+      "suggested_adjustments": {
+        "intensity": "reduce",
+        "volume": "reduce",
+        "cap_zone": "Z2"
+      }
+    },
+    "reason": "P1 acute overload (modify). ACWR 1.36 > 1.3.",
     "alarm_refs": []
   },
   "history": {
@@ -147,20 +152,14 @@
   "summary": {
     "period_description": "Last 7 days of training (including today)",
     "note": "Duration calculated from API moving_time field.",
-    "total_duration_decimal_hours": 5.25,
-    "total_activities": 9,
+    "total_duration_decimal_hours": 5.66,
+    "total_activities": 10,
     "by_activity_type": {
       "EBikeRide": {
-        "duration_decimal_hours": 1.72,
-        "count": 3,
-        "tss": 37,
-        "distance_km": 42.8
-      },
-      "Ride": {
-        "duration_decimal_hours": 0.67,
-        "count": 1,
-        "tss": 16,
-        "distance_km": 16.7
+        "duration_decimal_hours": 2.39,
+        "count": 4,
+        "tss": 53,
+        "distance_km": 59.4
       },
       "TrailRun": {
         "duration_decimal_hours": 1.85,
@@ -179,15 +178,21 @@
         "count": 1,
         "tss": 15,
         "distance_km": 0.0
+      },
+      "Workout": {
+        "duration_decimal_hours": 0.42,
+        "count": 1,
+        "tss": 15,
+        "distance_km": 0.0
       }
     }
   },
   "current_status": {
     "fitness": {
-      "ctl": 26.65,
-      "atl": 30.29,
-      "tsb": -3.64,
-      "ramp_rate": 0.88,
+      "ctl": 26.83,
+      "atl": 32.29,
+      "tsb": -5.46,
+      "ramp_rate": 1.05,
       "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
@@ -266,20 +271,20 @@
     "rhr_baseline_28d": 55.6,
     "latest_hrv": 38.0,
     "latest_rhr": 54,
-    "acwr": 1.3,
-    "acwr_interpretation": "optimal",
-    "monotony": 1.04,
+    "acwr": 1.36,
+    "acwr_interpretation": "caution",
+    "monotony": 1.14,
     "monotony_interpretation": "normal",
     "primary_sport": "run",
     "primary_sport_monotony": null,
     "primary_sport_tss_7d": 141.0,
-    "effective_monotony": 1.04,
+    "effective_monotony": 1.14,
     "multi_sport_detected": true,
-    "strain": 238.0,
-    "stress_tolerance": 2.3,
-    "load_recovery_ratio": 1.4,
-    "tss_7d_total": 229.0,
-    "tss_28d_total": 702.0,
+    "strain": 278.0,
+    "stress_tolerance": 2.4,
+    "load_recovery_ratio": 1.5,
+    "tss_7d_total": 244.0,
+    "tss_28d_total": 717.0,
     "zone_distribution_7d": {
       "z1_hours": 3.1,
       "z2_hours": 0.22,
@@ -382,7 +387,7 @@
     "consistency_index": null,
     "consistency_details": {
       "planned_days": 0,
-      "completed_days": 2,
+      "completed_days": 1,
       "matched_days": 0,
       "note": "No planned workouts in period"
     },
@@ -440,12 +445,12 @@
     "p_max": 398,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-03-30T15:22:45.614993",
+    "calculation_timestamp": "2026-03-30T16:31:12.073013",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
-      "activities_7d": 9,
-      "activities_28d": 30,
+      "activities_7d": 10,
+      "activities_28d": 31,
       "planned_workouts_7d": 0,
       "ftp_history_days": {
         "indoor": 0,
@@ -455,9 +460,44 @@
   },
   "recent_activities": [
     {
+      "id": "i135941636",
+      "date": "2026-03-30T16:00:00",
+      "type": "Workout",
+      "name": "Vibes Fitness",
+      "duration_hours": 0.42,
+      "distance_km": 0.0,
+      "tss": 15,
+      "intensity_factor": 60.0,
+      "avg_power": null,
+      "normalized_power": null,
+      "avg_hr": null,
+      "max_hr": null,
+      "avg_cadence": null,
+      "avg_speed": null,
+      "max_speed": null,
+      "avg_pace": null,
+      "avg_temp": null,
+      "weather": null,
+      "humidity": null,
+      "wind_speed": null,
+      "work_kj": null,
+      "calories": null,
+      "carbs_used": null,
+      "carbs_ingested": null,
+      "variability_index": null,
+      "decoupling": null,
+      "efficiency_factor": null,
+      "hrrc": null,
+      "elevation_m": null,
+      "feel": null,
+      "rpe": null,
+      "zone_distribution": null,
+      "has_intervals": false
+    },
+    {
       "id": "i135930203",
       "date": "2026-03-30T08:47:32",
-      "type": "Ride",
+      "type": "EBikeRide",
       "name": "Training Session",
       "duration_hours": 0.67,
       "distance_km": 16.67,
@@ -1130,10 +1170,10 @@
     "bail_no_match": 0
   },
   "weekly_summary": {
-    "total_training_hours": 5.25,
-    "total_training_formatted": "5h14m",
-    "total_tss": 229,
-    "activities_count": 9,
+    "total_training_hours": 5.66,
+    "total_training_formatted": "5h39m",
+    "total_tss": 244,
+    "activities_count": 10,
     "avg_hrv": 25.0,
     "avg_resting_hr": 56.0
   },
