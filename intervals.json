@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-04T18:24:10.481799",
+  "generated_at": "2026-04-04T19:05:49.373056",
   "version": "3.86",
   "scan_hours": 72,
   "retention_days": 8,
@@ -890,6 +890,46 @@
           "avg_hr": 101,
           "max_hr": 102,
           "avg_cadence": 18.666666,
+          "zone": 1
+        }
+      ]
+    },
+    {
+      "activity_id": "i137232614",
+      "date": "2026-04-04",
+      "type": "Run",
+      "name": "Kainbach bei Graz Road",
+      "interval_summary": [
+        "1x 26m11s 125bpm",
+        "1x 4m38s 128bpm",
+        "1x 13m 125bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "1571s@125bpm80rpm",
+          "duration_secs": 1571,
+          "avg_hr": 125,
+          "max_hr": 144,
+          "avg_cadence": 79.62283,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "278s@128bpm75rpm",
+          "duration_secs": 278,
+          "avg_hr": 128,
+          "max_hr": 134,
+          "avg_cadence": 75.45324,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "780s@125bpm78rpm",
+          "duration_secs": 780,
+          "avg_hr": 125,
+          "max_hr": 139,
+          "avg_cadence": 77.76795,
           "zone": 1
         }
       ]
