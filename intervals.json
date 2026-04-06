@@ -1,57 +1,9 @@
 {
-  "generated_at": "2026-04-05T23:54:48.375305",
+  "generated_at": "2026-04-06T01:14:22.329398",
   "version": "3.86",
   "scan_hours": 72,
   "retention_days": 8,
   "activities": [
-    {
-      "activity_id": "i135398545",
-      "date": "2026-03-28",
-      "type": "TrailRun",
-      "name": "Neuberg im Burgenland OL",
-      "interval_summary": [
-        "1x 42m32s 164bpm"
-      ],
-      "intervals": [
-        {
-          "type": "WORK",
-          "label": "2552s@164bpm64rpm",
-          "duration_secs": 2552,
-          "avg_hr": 164,
-          "max_hr": 174,
-          "avg_cadence": 64.009796,
-          "zone": 4
-        },
-        {
-          "type": "RECOVERY",
-          "duration_secs": 1,
-          "avg_hr": 174,
-          "max_hr": 174,
-          "avg_cadence": 85.0,
-          "zone": 5
-        }
-      ]
-    },
-    {
-      "activity_id": "i135398492",
-      "date": "2026-03-28",
-      "type": "TrailRun",
-      "name": "Neuberg im Burgenland OL",
-      "interval_summary": [
-        "1x 23m10s 120bpm"
-      ],
-      "intervals": [
-        {
-          "type": "WORK",
-          "label": "1390s@120bpm79rpm",
-          "duration_secs": 1390,
-          "avg_hr": 120,
-          "max_hr": 149,
-          "avg_cadence": 78.57977,
-          "zone": 1
-        }
-      ]
-    },
     {
       "activity_id": "i135746839",
       "date": "2026-03-29",
