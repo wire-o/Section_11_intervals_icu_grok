@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-06T18:02:05.189097",
+  "generated_at": "2026-04-06T19:17:16.708332",
   "version": "3.86",
   "scan_hours": 72,
   "retention_days": 8,
@@ -977,6 +977,44 @@
           "max_hr": 161,
           "avg_cadence": 76.84898,
           "zone": 1
+        }
+      ]
+    },
+    {
+      "activity_id": "i137684983",
+      "date": "2026-04-06",
+      "type": "VirtualRide",
+      "name": "Zwift - Easy",
+      "interval_summary": [
+        "1x 5m8s 102bpm",
+        "1x 42m53s 125bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "308s@126w75rpm",
+          "duration_secs": 308,
+          "avg_power": 126,
+          "max_power": 172,
+          "avg_hr": 102,
+          "max_hr": 116,
+          "avg_cadence": 75.19868,
+          "zone": 1,
+          "training_load": 3.5752084,
+          "decoupling": -13.0232315
+        },
+        {
+          "type": "WORK",
+          "label": "2573s@164w86rpm",
+          "duration_secs": 2573,
+          "avg_power": 164,
+          "max_power": 210,
+          "avg_hr": 125,
+          "max_hr": 132,
+          "avg_cadence": 86.31714,
+          "zone": 1,
+          "training_load": 50.4308,
+          "decoupling": 4.030921
         }
       ]
     }
