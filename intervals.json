@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-07T15:41:45.074967",
+  "generated_at": "2026-04-07T16:38:00.747144",
   "version": "3.86",
   "scan_hours": 72,
   "retention_days": 8,
@@ -963,6 +963,34 @@
           "zone": 1,
           "training_load": 50.4308,
           "decoupling": 4.030921
+        }
+      ]
+    },
+    {
+      "activity_id": "i137890534",
+      "date": "2026-04-07",
+      "type": "Ride",
+      "name": "Kainbach bei Graz Commute",
+      "interval_summary": [
+        "1x 9h25m 98bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "33943s@98bpm67rpm",
+          "duration_secs": 33943,
+          "avg_hr": 98,
+          "max_hr": 131,
+          "avg_cadence": 67.27141,
+          "zone": 1
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 3,
+          "avg_hr": 100,
+          "max_hr": 101,
+          "avg_cadence": 20.0,
+          "zone": 1
         }
       ]
     }
