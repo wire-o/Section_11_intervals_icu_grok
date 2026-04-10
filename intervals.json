@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-10T19:29:59.300111",
+  "generated_at": "2026-04-10T20:01:49.618653",
   "version": "3.86",
   "scan_hours": 72,
   "retention_days": 8,
@@ -303,6 +303,46 @@
           "max_hr": 147,
           "avg_cadence": 74.63242,
           "zone": 1
+        }
+      ]
+    },
+    {
+      "activity_id": "i138756915",
+      "date": "2026-04-10",
+      "type": "TrailRun",
+      "name": "Grafenbach-Sankt Valentin OL",
+      "interval_summary": [
+        "1x 15m40s 136bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "940s@136bpm70rpm",
+          "duration_secs": 940,
+          "avg_hr": 136,
+          "max_hr": 149,
+          "avg_cadence": 69.69042,
+          "zone": 1
+        }
+      ]
+    },
+    {
+      "activity_id": "i138756921",
+      "date": "2026-04-10",
+      "type": "TrailRun",
+      "name": "Altendorf OL",
+      "interval_summary": [
+        "1x 27m48s 156bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "1668s@156bpm56rpm",
+          "duration_secs": 1668,
+          "avg_hr": 156,
+          "max_hr": 171,
+          "avg_cadence": 55.670265,
+          "zone": 3
         }
       ]
     }
