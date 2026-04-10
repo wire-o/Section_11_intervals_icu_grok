@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-10T18:31:24.712313",
+  "generated_at": "2026-04-10T19:29:59.300111",
   "version": "3.86",
   "scan_hours": 72,
   "retention_days": 8,
@@ -282,6 +282,26 @@
           "duration_secs": 3,
           "avg_hr": 105,
           "max_hr": 105,
+          "zone": 1
+        }
+      ]
+    },
+    {
+      "activity_id": "i138749884",
+      "date": "2026-04-10",
+      "type": "TrailRun",
+      "name": "Altendorf OL",
+      "interval_summary": [
+        "1x 13m51s 123bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "831s@123bpm75rpm",
+          "duration_secs": 831,
+          "avg_hr": 123,
+          "max_hr": 147,
+          "avg_cadence": 74.63242,
           "zone": 1
         }
       ]
