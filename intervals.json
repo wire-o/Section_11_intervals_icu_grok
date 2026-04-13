@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-13T11:57:27.416783",
+  "generated_at": "2026-04-13T13:12:27.571467",
   "version": "3.86",
   "scan_hours": 72,
   "retention_days": 8,
@@ -975,6 +975,26 @@
           "duration_secs": 60,
           "avg_hr": 125,
           "max_hr": 129,
+          "zone": 1
+        }
+      ]
+    },
+    {
+      "activity_id": "i139444253",
+      "date": "2026-04-13",
+      "type": "TrailRun",
+      "name": "Kainbach bei Graz OL",
+      "interval_summary": [
+        "1x 36m15s 118bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "2175s@118bpm40rpm",
+          "duration_secs": 2175,
+          "avg_hr": 118,
+          "max_hr": 148,
+          "avg_cadence": 39.981148,
           "zone": 1
         }
       ]
