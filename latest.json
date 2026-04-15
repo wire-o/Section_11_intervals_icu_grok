@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-04-15T11:44:33.843956",
+    "last_updated": "2026-04-15T12:45:29.376564",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.86"
@@ -150,7 +150,7 @@
   "history": {
     "available": true,
     "last_generated": "2026-02-26",
-    "age_days": 47,
+    "age_days": 48,
     "total_months": 35,
     "history_confidence": "high"
   },
@@ -161,16 +161,16 @@
     "total_activities": 9,
     "by_activity_type": {
       "EBikeRide": {
-        "duration_decimal_hours": 0.59,
-        "count": 1,
-        "tss": 13,
-        "distance_km": 14.4
+        "duration_decimal_hours": 1.17,
+        "count": 2,
+        "tss": 25,
+        "distance_km": 28.7
       },
       "Ride": {
-        "duration_decimal_hours": 1.89,
-        "count": 2,
-        "tss": 60,
-        "distance_km": 39.1
+        "duration_decimal_hours": 1.32,
+        "count": 1,
+        "tss": 48,
+        "distance_km": 24.8
       },
       "TrailRun": {
         "duration_decimal_hours": 1.71,
@@ -251,7 +251,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 3086,
+      "steps": 4563,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -444,7 +444,7 @@
     "p_max": 395,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-04-15T11:44:33.843189",
+    "calculation_timestamp": "2026-04-15T12:45:29.375464",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -514,7 +514,7 @@
     {
       "id": "i139781539",
       "date": "2026-04-14T08:34:44",
-      "type": "Ride",
+      "type": "EBikeRide",
       "name": "Training Session",
       "duration_hours": 0.57,
       "distance_km": 14.28,
@@ -1122,7 +1122,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 3086,
+      "steps": 4563,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
