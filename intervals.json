@@ -1,57 +1,9 @@
 {
-  "generated_at": "2026-04-21T23:56:08.722069",
+  "generated_at": "2026-04-22T01:27:19.674262",
   "version": "3.86",
   "scan_hours": 72,
   "retention_days": 8,
   "activities": [
-    {
-      "activity_id": "i139444253",
-      "date": "2026-04-13",
-      "type": "TrailRun",
-      "name": "Kainbach bei Graz OL",
-      "interval_summary": [
-        "1x 36m15s 118bpm"
-      ],
-      "intervals": [
-        {
-          "type": "WORK",
-          "label": "2175s@118bpm40rpm",
-          "duration_secs": 2175,
-          "avg_hr": 118,
-          "max_hr": 148,
-          "avg_cadence": 39.981148,
-          "zone": 1
-        }
-      ]
-    },
-    {
-      "activity_id": "i139472495",
-      "date": "2026-04-13",
-      "type": "TrailRun",
-      "name": "Kainbach bei Graz OL",
-      "interval_summary": [
-        "1x 32m15s 115bpm"
-      ],
-      "intervals": [
-        {
-          "type": "WORK",
-          "label": "1935s@115bpm43rpm",
-          "duration_secs": 1935,
-          "avg_hr": 115,
-          "max_hr": 140,
-          "avg_cadence": 42.82532,
-          "zone": 1
-        },
-        {
-          "type": "RECOVERY",
-          "duration_secs": 1,
-          "avg_hr": 121,
-          "max_hr": 121,
-          "avg_cadence": 83.0,
-          "zone": 1
-        }
-      ]
-    },
     {
       "activity_id": "i139781539",
       "date": "2026-04-14",
