@@ -1,29 +1,9 @@
 {
-  "generated_at": "2026-04-24T23:59:24.452541",
+  "generated_at": "2026-04-25T02:26:03.449976",
   "version": "3.86",
   "scan_hours": 72,
   "retention_days": 8,
   "activities": [
-    {
-      "activity_id": "i140411031",
-      "date": "2026-04-16",
-      "type": "Run",
-      "name": "Easy",
-      "interval_summary": [
-        "1x 39m12s 130bpm"
-      ],
-      "intervals": [
-        {
-          "type": "WORK",
-          "label": "2352s@130bpm78rpm",
-          "duration_secs": 2352,
-          "avg_hr": 130,
-          "max_hr": 145,
-          "avg_cadence": 78.46908,
-          "zone": 1
-        }
-      ]
-    },
     {
       "activity_id": "i140668336",
       "date": "2026-04-17",
