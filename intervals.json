@@ -1,29 +1,9 @@
 {
-  "generated_at": "2026-04-26T23:31:28.409301",
+  "generated_at": "2026-04-27T01:13:08.135227",
   "version": "3.86",
   "scan_hours": 72,
   "retention_days": 8,
   "activities": [
-    {
-      "activity_id": "i140919429",
-      "date": "2026-04-18",
-      "type": "TrailRun",
-      "name": "Easy",
-      "interval_summary": [
-        "1x 32m17s 128bpm"
-      ],
-      "intervals": [
-        {
-          "type": "WORK",
-          "label": "1937s@128bpm77rpm",
-          "duration_secs": 1937,
-          "avg_hr": 128,
-          "max_hr": 141,
-          "avg_cadence": 77.48926,
-          "zone": 1
-        }
-      ]
-    },
     {
       "activity_id": "i141108012",
       "date": "2026-04-19",
