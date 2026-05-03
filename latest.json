@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-05-03T15:59:20.933972",
+    "last_updated": "2026-05-03T16:50:24.938286",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.86"
@@ -146,11 +146,17 @@
         "tss": 37,
         "distance_km": 42.9
       },
+      "Run": {
+        "duration_decimal_hours": 0.43,
+        "count": 2,
+        "tss": 23,
+        "distance_km": 4.3
+      },
       "TrailRun": {
-        "duration_decimal_hours": 2.37,
-        "count": 6,
-        "tss": 158,
-        "distance_km": 17.9
+        "duration_decimal_hours": 1.94,
+        "count": 4,
+        "tss": 135,
+        "distance_km": 13.6
       },
       "Workout": {
         "duration_decimal_hours": 0.42,
@@ -418,7 +424,7 @@
     "p_max": 393,
     "power_model_source": "wellness.sportInfo",
     "vo2max": 50.0,
-    "calculation_timestamp": "2026-05-03T15:59:20.931758",
+    "calculation_timestamp": "2026-05-03T16:50:24.936998",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -522,7 +528,7 @@
     {
       "id": "i144729846",
       "date": "2026-05-02T10:17:50",
-      "type": "TrailRun",
+      "type": "Run",
       "name": "Training Session",
       "duration_hours": 0.23,
       "distance_km": 2.67,
@@ -560,12 +566,13 @@
           "z5_time": 0
         }
       },
-      "has_intervals": true
+      "has_intervals": true,
+      "description": "Zur Bronzemedaille gejoggt \ud83d\ude42"
     },
     {
       "id": "i144729820",
       "date": "2026-05-02T09:50:30",
-      "type": "TrailRun",
+      "type": "Run",
       "name": "Training Session",
       "duration_hours": 0.19,
       "distance_km": 1.62,
@@ -690,8 +697,7 @@
           "z5_time": 0
         }
       },
-      "has_intervals": true,
-      "description": "Fu\u00df naja, aber zumindest fertig gelaufen."
+      "has_intervals": true
     },
     {
       "id": "i144320095",
