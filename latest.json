@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-05-08T18:08:57.889062",
+    "last_updated": "2026-05-08T19:42:36.880853",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.86"
@@ -141,10 +141,16 @@
     "total_activities": 12,
     "by_activity_type": {
       "EBikeRide": {
-        "duration_decimal_hours": 2.88,
-        "count": 4,
-        "tss": 89,
-        "distance_km": 66.6
+        "duration_decimal_hours": 1.83,
+        "count": 3,
+        "tss": 47,
+        "distance_km": 43.7
+      },
+      "Ride": {
+        "duration_decimal_hours": 1.05,
+        "count": 1,
+        "tss": 42,
+        "distance_km": 22.9
       },
       "Run": {
         "duration_decimal_hours": 0.23,
@@ -231,7 +237,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 8253,
+      "steps": 12208,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -366,7 +372,7 @@
     "consistency_index": null,
     "consistency_details": {
       "planned_days": 0,
-      "completed_days": 0,
+      "completed_days": 1,
       "matched_days": 0,
       "note": "No planned workouts in period"
     },
@@ -424,7 +430,7 @@
     "p_max": 392,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-05-08T18:08:57.887709",
+    "calculation_timestamp": "2026-05-08T19:42:36.879651",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -441,7 +447,7 @@
     {
       "id": "i146539640",
       "date": "2026-05-08T17:35:13",
-      "type": "EBikeRide",
+      "type": "Ride",
       "name": "Training Session",
       "duration_hours": 1.05,
       "distance_km": 22.9,
@@ -1233,7 +1239,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 8253,
+      "steps": 12208,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
