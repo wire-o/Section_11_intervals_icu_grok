@@ -1,65 +1,9 @@
 {
-  "generated_at": "2026-05-11T23:37:07.691750",
+  "generated_at": "2026-05-12T01:21:52.996654",
   "version": "3.86",
   "scan_hours": 72,
   "retention_days": 8,
   "activities": [
-    {
-      "activity_id": "i144997064",
-      "date": "2026-05-03",
-      "type": "TrailRun",
-      "name": "Sankt Barbara im M\u00fcrztal OL",
-      "interval_summary": [
-        "1x 46m55s 152bpm"
-      ],
-      "intervals": [
-        {
-          "type": "WORK",
-          "label": "2815s@152bpm47rpm",
-          "duration_secs": 2815,
-          "avg_hr": 152,
-          "max_hr": 168,
-          "avg_cadence": 47.041206,
-          "zone": 3
-        },
-        {
-          "type": "RECOVERY",
-          "duration_secs": 1,
-          "avg_hr": 152,
-          "max_hr": 152,
-          "avg_cadence": 91.0,
-          "zone": 3
-        }
-      ]
-    },
-    {
-      "activity_id": "i144996439",
-      "date": "2026-05-03",
-      "type": "TrailRun",
-      "name": "WU",
-      "interval_summary": [
-        "1x 19m18s 115bpm"
-      ],
-      "intervals": [
-        {
-          "type": "WORK",
-          "label": "1158s@115bpm71rpm",
-          "duration_secs": 1158,
-          "avg_hr": 115,
-          "max_hr": 132,
-          "avg_cadence": 71.31122,
-          "zone": 1
-        },
-        {
-          "type": "RECOVERY",
-          "duration_secs": 1,
-          "avg_hr": 114,
-          "max_hr": 114,
-          "avg_cadence": 78.0,
-          "zone": 1
-        }
-      ]
-    },
     {
       "activity_id": "i145955057",
       "date": "2026-05-06",
