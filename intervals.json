@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-12T17:01:03.401085",
+  "generated_at": "2026-05-12T19:07:10.218871",
   "version": "3.86",
   "scan_hours": 72,
   "retention_days": 8,
@@ -676,6 +676,34 @@
           "zone": 1,
           "training_load": 0.0384,
           "decoupling": 94.93055
+        }
+      ]
+    },
+    {
+      "activity_id": "i147627224",
+      "date": "2026-05-12",
+      "type": "TrailRun",
+      "name": "DL",
+      "interval_summary": [
+        "1x 56m17s 130bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "3377s@130bpm79rpm",
+          "duration_secs": 3377,
+          "avg_hr": 130,
+          "max_hr": 147,
+          "avg_cadence": 78.84282,
+          "zone": 1
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 1,
+          "avg_hr": 139,
+          "max_hr": 139,
+          "avg_cadence": 86.0,
+          "zone": 2
         }
       ]
     }
