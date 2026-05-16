@@ -1,49 +1,9 @@
 {
-  "generated_at": "2026-05-15T23:33:51.163202",
+  "generated_at": "2026-05-16T01:21:45.448619",
   "version": "3.86",
   "scan_hours": 72,
   "retention_days": 8,
   "activities": [
-    {
-      "activity_id": "i146251843",
-      "date": "2026-05-07",
-      "type": "TrailRun",
-      "name": "STOLV Training",
-      "interval_summary": [
-        "1x 59m27s 129bpm"
-      ],
-      "intervals": [
-        {
-          "type": "WORK",
-          "label": "3567s@129bpm50rpm",
-          "duration_secs": 3567,
-          "avg_hr": 129,
-          "max_hr": 147,
-          "avg_cadence": 49.622093,
-          "zone": 1
-        }
-      ]
-    },
-    {
-      "activity_id": "i146251629",
-      "date": "2026-05-07",
-      "type": "TrailRun",
-      "name": "WU",
-      "interval_summary": [
-        "1x 18m4s 116bpm"
-      ],
-      "intervals": [
-        {
-          "type": "WORK",
-          "label": "1084s@116bpm74rpm",
-          "duration_secs": 1084,
-          "avg_hr": 116,
-          "max_hr": 133,
-          "avg_cadence": 73.95115,
-          "zone": 1
-        }
-      ]
-    },
     {
       "activity_id": "i146464427",
       "date": "2026-05-08",
