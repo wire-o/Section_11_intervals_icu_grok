@@ -1,57 +1,9 @@
 {
-  "generated_at": "2026-05-16T23:03:58.941705",
+  "generated_at": "2026-05-17T00:04:38.136637",
   "version": "3.86",
   "scan_hours": 72,
   "retention_days": 8,
   "activities": [
-    {
-      "activity_id": "i146464427",
-      "date": "2026-05-08",
-      "type": "EBikeRide",
-      "name": "Commute ",
-      "interval_summary": [
-        "1x 14m40s 125bpm",
-        "1x 9m1s 142bpm"
-      ],
-      "intervals": [
-        {
-          "type": "WORK",
-          "label": "880s@125bpm",
-          "duration_secs": 880,
-          "avg_hr": 125,
-          "max_hr": 152,
-          "zone": 1
-        },
-        {
-          "type": "WORK",
-          "label": "541s@142bpm",
-          "duration_secs": 541,
-          "avg_hr": 142,
-          "max_hr": 151,
-          "zone": 2
-        }
-      ]
-    },
-    {
-      "activity_id": "i146539640",
-      "date": "2026-05-08",
-      "type": "EBikeRide",
-      "name": "Kainbach bei Graz Commute",
-      "interval_summary": [
-        "1x 1h6m 122bpm"
-      ],
-      "intervals": [
-        {
-          "type": "WORK",
-          "label": "3978s@122bpm75rpm",
-          "duration_secs": 3978,
-          "avg_hr": 122,
-          "max_hr": 142,
-          "avg_cadence": 74.928986,
-          "zone": 1
-        }
-      ]
-    },
     {
       "activity_id": "i146813078",
       "date": "2026-05-09",
