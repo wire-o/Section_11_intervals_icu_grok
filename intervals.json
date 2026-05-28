@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-28T16:53:32.509601",
+  "generated_at": "2026-05-28T19:31:35.572074",
   "version": "3.86",
   "scan_hours": 72,
   "retention_days": 8,
@@ -192,6 +192,34 @@
           "max_hr": 141,
           "avg_cadence": 80.0,
           "zone": 2
+        }
+      ]
+    },
+    {
+      "activity_id": "i152348882",
+      "date": "2026-05-28",
+      "type": "Ride",
+      "name": "Zum und vom Vibes",
+      "interval_summary": [
+        "1x 1h32m 119bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "5556s@119bpm76rpm",
+          "duration_secs": 5556,
+          "avg_hr": 119,
+          "max_hr": 142,
+          "avg_cadence": 75.970535,
+          "zone": 1
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 2,
+          "avg_hr": 130,
+          "max_hr": 130,
+          "avg_cadence": 34.5,
+          "zone": 1
         }
       ]
     }
