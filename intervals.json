@@ -1,37 +1,9 @@
 {
-  "generated_at": "2026-05-28T23:00:21.662954",
+  "generated_at": "2026-05-29T00:18:29.737045",
   "version": "3.86",
   "scan_hours": 72,
   "retention_days": 8,
   "activities": [
-    {
-      "activity_id": "i150071482",
-      "date": "2026-05-20",
-      "type": "TrailRun",
-      "name": "Kainbach bei Graz Trail Run",
-      "interval_summary": [
-        "1x 37m42s 127bpm"
-      ],
-      "intervals": [
-        {
-          "type": "WORK",
-          "label": "2262s@127bpm78rpm",
-          "duration_secs": 2262,
-          "avg_hr": 127,
-          "max_hr": 153,
-          "avg_cadence": 77.73705,
-          "zone": 1
-        },
-        {
-          "type": "RECOVERY",
-          "duration_secs": 1,
-          "avg_hr": 138,
-          "max_hr": 138,
-          "avg_cadence": 85.0,
-          "zone": 1
-        }
-      ]
-    },
     {
       "activity_id": "i150834245",
       "date": "2026-05-23",
