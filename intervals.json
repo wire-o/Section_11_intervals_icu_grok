@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-31T15:58:07.443443",
+  "generated_at": "2026-05-31T17:01:45.053997",
   "version": "3.86",
   "scan_hours": 72,
   "retention_days": 8,
@@ -211,6 +211,142 @@
           "avg_hr": 137,
           "max_hr": 152,
           "avg_cadence": 79.565445,
+          "zone": 1
+        }
+      ]
+    },
+    {
+      "activity_id": "i152986900",
+      "date": "2026-05-31",
+      "type": "TrailRun",
+      "name": "Kainbach bei Graz Trail Run",
+      "interval_summary": [
+        "1x 12m17s 126bpm",
+        "5x 4m2s 153bpm",
+        "1x 5s 151bpm",
+        "1x 2m 146bpm",
+        "1x 10m35s 132bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "737s@126bpm76rpm",
+          "duration_secs": 737,
+          "avg_hr": 126,
+          "max_hr": 151,
+          "avg_cadence": 76.17647,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "242s@153bpm84rpm",
+          "duration_secs": 241,
+          "avg_hr": 154,
+          "max_hr": 161,
+          "avg_cadence": 80.6888,
+          "zone": 3
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 13,
+          "avg_hr": 156,
+          "max_hr": 157,
+          "avg_cadence": 81.38461,
+          "zone": 3
+        },
+        {
+          "type": "WORK",
+          "label": "5s@151bpm80rpm",
+          "duration_secs": 5,
+          "avg_hr": 151,
+          "max_hr": 153,
+          "avg_cadence": 80.0,
+          "zone": 3
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 120,
+          "avg_hr": 136,
+          "max_hr": 150,
+          "avg_cadence": 78.225,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "242s@153bpm84rpm",
+          "duration_secs": 240,
+          "avg_hr": 155,
+          "max_hr": 161,
+          "avg_cadence": 85.1375,
+          "zone": 3
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 120,
+          "avg_hr": 137,
+          "max_hr": 159,
+          "avg_cadence": 79.525,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "242s@153bpm84rpm",
+          "duration_secs": 240,
+          "avg_hr": 153,
+          "max_hr": 161,
+          "avg_cadence": 82.17917,
+          "zone": 3
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 120,
+          "avg_hr": 139,
+          "max_hr": 158,
+          "avg_cadence": 80.95,
+          "zone": 2
+        },
+        {
+          "type": "WORK",
+          "label": "242s@153bpm84rpm",
+          "duration_secs": 240,
+          "avg_hr": 152,
+          "max_hr": 162,
+          "avg_cadence": 83.020836,
+          "zone": 3
+        },
+        {
+          "type": "WORK",
+          "label": "120s@146bpm74rpm",
+          "duration_secs": 120,
+          "avg_hr": 146,
+          "max_hr": 163,
+          "avg_cadence": 74.09167,
+          "zone": 2
+        },
+        {
+          "type": "WORK",
+          "label": "242s@153bpm84rpm",
+          "duration_secs": 251,
+          "avg_hr": 153,
+          "max_hr": 160,
+          "avg_cadence": 86.94422,
+          "zone": 3
+        },
+        {
+          "type": "WORK",
+          "label": "635s@132bpm79rpm",
+          "duration_secs": 635,
+          "avg_hr": 132,
+          "max_hr": 161,
+          "avg_cadence": 78.88976,
+          "zone": 1
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 1,
+          "avg_hr": 130,
+          "max_hr": 130,
+          "avg_cadence": 79.0,
           "zone": 1
         }
       ]
