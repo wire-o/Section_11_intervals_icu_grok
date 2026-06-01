@@ -1,56 +1,9 @@
 {
-  "generated_at": "2026-05-31T23:41:53.221609",
+  "generated_at": "2026-06-01T01:59:09.346234",
   "version": "3.86",
   "scan_hours": 72,
   "retention_days": 8,
   "activities": [
-    {
-      "activity_id": "i150834245",
-      "date": "2026-05-23",
-      "type": "TrailRun",
-      "name": "Obdach OL",
-      "interval_summary": [
-        "1x 33m31s 149bpm"
-      ],
-      "intervals": [
-        {
-          "type": "WORK",
-          "label": "2011s@149bpm60rpm",
-          "duration_secs": 2011,
-          "avg_hr": 149,
-          "max_hr": 166,
-          "avg_cadence": 59.513176,
-          "zone": 2
-        }
-      ]
-    },
-    {
-      "activity_id": "i150819881",
-      "date": "2026-05-23",
-      "type": "TrailRun",
-      "name": "Obdach OL",
-      "interval_summary": [
-        "1x 21m30s 113bpm"
-      ],
-      "intervals": [
-        {
-          "type": "WORK",
-          "label": "1290s@113bpm72rpm",
-          "duration_secs": 1290,
-          "avg_hr": 113,
-          "max_hr": 126,
-          "avg_cadence": 71.76518,
-          "zone": 1
-        },
-        {
-          "type": "RECOVERY",
-          "duration_secs": 1,
-          "avg_hr": 114,
-          "max_hr": 114,
-          "zone": 1
-        }
-      ]
-    },
     {
       "activity_id": "i151036326",
       "date": "2026-05-24",
