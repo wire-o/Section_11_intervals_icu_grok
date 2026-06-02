@@ -1,57 +1,9 @@
 {
-  "generated_at": "2026-06-01T23:20:03.499426",
+  "generated_at": "2026-06-02T01:41:51.273435",
   "version": "3.86",
   "scan_hours": 72,
   "retention_days": 8,
   "activities": [
-    {
-      "activity_id": "i151036326",
-      "date": "2026-05-24",
-      "type": "TrailRun",
-      "name": "Judenburg OL",
-      "interval_summary": [
-        "1x 59m22s 154bpm"
-      ],
-      "intervals": [
-        {
-          "type": "WORK",
-          "label": "3562s@154bpm54rpm",
-          "duration_secs": 3562,
-          "avg_hr": 154,
-          "max_hr": 171,
-          "avg_cadence": 53.543514,
-          "zone": 3
-        }
-      ]
-    },
-    {
-      "activity_id": "i151036261",
-      "date": "2026-05-24",
-      "type": "TrailRun",
-      "name": "Judenburg OL",
-      "interval_summary": [
-        "1x 13m2s 122bpm"
-      ],
-      "intervals": [
-        {
-          "type": "WORK",
-          "label": "782s@122bpm75rpm",
-          "duration_secs": 782,
-          "avg_hr": 122,
-          "max_hr": 136,
-          "avg_cadence": 75.15813,
-          "zone": 1
-        },
-        {
-          "type": "RECOVERY",
-          "duration_secs": 1,
-          "avg_hr": 125,
-          "max_hr": 125,
-          "avg_cadence": 65.0,
-          "zone": 1
-        }
-      ]
-    },
     {
       "activity_id": "i151299422",
       "date": "2026-05-25",
