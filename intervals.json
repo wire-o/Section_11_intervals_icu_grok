@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-16T14:32:09.629678",
+  "generated_at": "2026-06-16T18:45:15.202585",
   "version": "3.86",
   "scan_hours": 72,
   "retention_days": 8,
@@ -728,6 +728,26 @@
           "avg_hr": 122,
           "max_hr": 140,
           "avg_cadence": 76.556015,
+          "zone": 1
+        }
+      ]
+    },
+    {
+      "activity_id": "i157815913",
+      "date": "2026-06-16",
+      "type": "TrailRun",
+      "name": "Longjogg ",
+      "interval_summary": [
+        "1x 1h35m 131bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "5718s@131bpm77rpm",
+          "duration_secs": 5718,
+          "avg_hr": 131,
+          "max_hr": 149,
+          "avg_cadence": 77.42697,
           "zone": 1
         }
       ]
