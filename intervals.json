@@ -1,49 +1,9 @@
 {
-  "generated_at": "2026-06-22T23:46:58.129477",
+  "generated_at": "2026-06-23T01:57:41.409199",
   "version": "3.86",
   "scan_hours": 72,
   "retention_days": 8,
   "activities": [
-    {
-      "activity_id": "i157124207",
-      "date": "2026-06-14",
-      "type": "TrailRun",
-      "name": "Steuerberg OL",
-      "interval_summary": [
-        "1x 38m35s 154bpm"
-      ],
-      "intervals": [
-        {
-          "type": "WORK",
-          "label": "2315s@154bpm59rpm",
-          "duration_secs": 2315,
-          "avg_hr": 154,
-          "max_hr": 165,
-          "avg_cadence": 59.48553,
-          "zone": 3
-        }
-      ]
-    },
-    {
-      "activity_id": "i157124120",
-      "date": "2026-06-14",
-      "type": "TrailRun",
-      "name": "Steuerberg OL",
-      "interval_summary": [
-        "1x 15m57s 122bpm"
-      ],
-      "intervals": [
-        {
-          "type": "WORK",
-          "label": "957s@122bpm77rpm",
-          "duration_secs": 957,
-          "avg_hr": 122,
-          "max_hr": 140,
-          "avg_cadence": 76.556015,
-          "zone": 1
-        }
-      ]
-    },
     {
       "activity_id": "i157815913",
       "date": "2026-06-16",
