@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-06-24T19:23:15.844126",
+    "last_updated": "2026-06-24T21:03:32.288760",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.86"
@@ -141,10 +141,16 @@
     "total_activities": 10,
     "by_activity_type": {
       "EBikeRide": {
-        "duration_decimal_hours": 3.39,
-        "count": 5,
-        "tss": 88,
-        "distance_km": 79.3
+        "duration_decimal_hours": 2.31,
+        "count": 4,
+        "tss": 48,
+        "distance_km": 57.6
+      },
+      "Ride": {
+        "duration_decimal_hours": 1.07,
+        "count": 1,
+        "tss": 40,
+        "distance_km": 21.7
       },
       "Run": {
         "duration_decimal_hours": 0.94,
@@ -366,12 +372,14 @@
     "consistency_index": 0.0,
     "consistency_details": {
       "planned_days": 1,
-      "completed_days": 0,
+      "completed_days": 1,
       "matched_days": 0,
       "planned_dates": [
         "2026-06-19"
       ],
-      "completed_dates": []
+      "completed_dates": [
+        "2026-06-24"
+      ]
     },
     "phase_detection": {
       "phase": "Base",
@@ -423,7 +431,7 @@
     "p_max": 388,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-06-24T19:23:15.842766",
+    "calculation_timestamp": "2026-06-24T21:03:32.287401",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -440,7 +448,7 @@
     {
       "id": "i160052490",
       "date": "2026-06-24T18:23:26",
-      "type": "EBikeRide",
+      "type": "Ride",
       "name": "Training Session",
       "duration_hours": 1.07,
       "distance_km": 21.69,
