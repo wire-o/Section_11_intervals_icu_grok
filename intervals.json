@@ -1,49 +1,9 @@
 {
-  "generated_at": "2026-06-26T23:52:07.030436",
+  "generated_at": "2026-06-27T01:55:52.264957",
   "version": "3.86",
   "scan_hours": 72,
   "retention_days": 8,
   "activities": [
-    {
-      "activity_id": "i158398817",
-      "date": "2026-06-18",
-      "type": "TrailRun",
-      "name": "Thal OL",
-      "interval_summary": [
-        "1x 50m53s 141bpm"
-      ],
-      "intervals": [
-        {
-          "type": "WORK",
-          "label": "3053s@141bpm56rpm",
-          "duration_secs": 3053,
-          "avg_hr": 141,
-          "max_hr": 162,
-          "avg_cadence": 55.619064,
-          "zone": 2
-        }
-      ]
-    },
-    {
-      "activity_id": "i158382963",
-      "date": "2026-06-18",
-      "type": "TrailRun",
-      "name": "Thal OL",
-      "interval_summary": [
-        "1x 6m3s 116bpm"
-      ],
-      "intervals": [
-        {
-          "type": "WORK",
-          "label": "363s@116bpm79rpm",
-          "duration_secs": 363,
-          "avg_hr": 116,
-          "max_hr": 132,
-          "avg_cadence": 79.44479,
-          "zone": 1
-        }
-      ]
-    },
     {
       "activity_id": "i158955780",
       "date": "2026-06-20",
