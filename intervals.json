@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-30T19:28:08.292913",
+  "generated_at": "2026-06-30T21:12:53.641026",
   "version": "3.86",
   "scan_hours": 72,
   "retention_days": 8,
@@ -189,6 +189,34 @@
           "max_hr": 136,
           "avg_cadence": 79.0,
           "zone": 1
+        }
+      ]
+    },
+    {
+      "activity_id": "i161603080",
+      "date": "2026-06-30",
+      "type": "TrailRun",
+      "name": "Schaftal-Runde",
+      "interval_summary": [
+        "1x 1h21m 133bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "4887s@133bpm77rpm",
+          "duration_secs": 4887,
+          "avg_hr": 133,
+          "max_hr": 153,
+          "avg_cadence": 76.94358,
+          "zone": 1
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 1,
+          "avg_hr": 146,
+          "max_hr": 146,
+          "avg_cadence": 88.0,
+          "zone": 2
         }
       ]
     }
