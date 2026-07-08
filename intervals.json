@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-08T09:32:44.498273",
+  "generated_at": "2026-07-08T11:27:19.816620",
   "version": "3.86",
   "scan_hours": 72,
   "retention_days": 8,
@@ -793,6 +793,54 @@
           "max_hr": 148,
           "avg_cadence": 83.0,
           "zone": 2
+        }
+      ]
+    },
+    {
+      "activity_id": "i163829700",
+      "date": "2026-07-08",
+      "type": "TrailRun",
+      "name": "Litschau OL",
+      "interval_summary": [
+        "1x 37m50s 151bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "2270s@151bpm55rpm",
+          "duration_secs": 2270,
+          "avg_hr": 151,
+          "max_hr": 164,
+          "avg_cadence": 54.596916,
+          "zone": 3
+        }
+      ]
+    },
+    {
+      "activity_id": "i163829692",
+      "date": "2026-07-08",
+      "type": "TrailRun",
+      "name": "Litschau OL",
+      "interval_summary": [
+        "1x 14m3s 115bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "843s@115bpm72rpm",
+          "duration_secs": 843,
+          "avg_hr": 115,
+          "max_hr": 143,
+          "avg_cadence": 72.38654,
+          "zone": 1
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 1,
+          "avg_hr": 134,
+          "max_hr": 134,
+          "avg_cadence": 75.0,
+          "zone": 1
         }
       ]
     }
