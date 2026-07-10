@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-10T11:30:51.546229",
+  "generated_at": "2026-07-10T16:02:06.835046",
   "version": "3.86",
   "scan_hours": 72,
   "retention_days": 8,
@@ -358,6 +358,61 @@
           "avg_hr": 105,
           "max_hr": 131,
           "avg_cadence": 65.38289,
+          "zone": 1
+        }
+      ]
+    },
+    {
+      "activity_id": "i164490064",
+      "date": "2026-07-10",
+      "type": "Run",
+      "name": "Stankov Road",
+      "interval_summary": [
+        "1x 6s 84bpm",
+        "1x 39m8s 73bpm",
+        "1x 7s 66bpm",
+        "1x 2h8m 69bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "6s@84bpm",
+          "duration_secs": 6,
+          "avg_hr": 84,
+          "max_hr": 85,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "2348s@73bpm0rpm",
+          "duration_secs": 2348,
+          "avg_hr": 73,
+          "max_hr": 88,
+          "avg_cadence": 0.29152396,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "7s@66bpm",
+          "duration_secs": 7,
+          "avg_hr": 66,
+          "max_hr": 67,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "7689s@69bpm1rpm",
+          "duration_secs": 7689,
+          "avg_hr": 69,
+          "max_hr": 98,
+          "avg_cadence": 0.52368295,
+          "zone": 1
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 1,
+          "avg_hr": 71,
+          "max_hr": 71,
           "zone": 1
         }
       ]
