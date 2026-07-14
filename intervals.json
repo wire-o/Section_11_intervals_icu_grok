@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-14T17:58:41.091502",
+  "generated_at": "2026-07-14T19:14:37.313653",
   "version": "3.86",
   "scan_hours": 72,
   "retention_days": 8,
@@ -307,6 +307,26 @@
           "avg_hr": 112,
           "max_hr": 112,
           "avg_cadence": 43.0,
+          "zone": 1
+        }
+      ]
+    },
+    {
+      "activity_id": "i165731707",
+      "date": "2026-07-14",
+      "type": "Run",
+      "name": "Longjogg ",
+      "interval_summary": [
+        "1x 2h5m 131bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "7555s@131bpm81rpm",
+          "duration_secs": 7555,
+          "avg_hr": 131,
+          "max_hr": 146,
+          "avg_cadence": 80.86462,
           "zone": 1
         }
       ]
