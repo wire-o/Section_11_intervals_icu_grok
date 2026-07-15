@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-07-15T11:55:04.117008",
+    "last_updated": "2026-07-15T13:03:39.174741",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.86"
@@ -225,7 +225,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 2616,
+      "steps": 5618,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -420,7 +420,7 @@
     "p_max": 387,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-07-15T11:55:04.115805",
+    "calculation_timestamp": "2026-07-15T13:03:39.173436",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -475,7 +475,8 @@
           "z5_time": 0
         }
       },
-      "has_intervals": true
+      "has_intervals": true,
+      "description": "Schmerzen an den Fu\u00dfsohlen ab 90 min"
     },
     {
       "id": "i165648017",
@@ -1181,7 +1182,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 2616,
+      "steps": 5618,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
