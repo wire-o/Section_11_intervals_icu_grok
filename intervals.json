@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-18T18:04:15.212343",
+  "generated_at": "2026-07-18T19:20:36.493786",
   "version": "3.86",
   "scan_hours": 72,
   "retention_days": 8,
@@ -279,6 +279,92 @@
           "avg_hr": 134,
           "max_hr": 134,
           "avg_cadence": 80.0,
+          "zone": 1
+        }
+      ]
+    },
+    {
+      "activity_id": "i166953592",
+      "date": "2026-07-18",
+      "type": "Run",
+      "name": "Kainbach bei Graz Road",
+      "interval_summary": [
+        "1x 21m6s 116bpm",
+        "3x 2m55s 150bpm",
+        "3x 94s 134bpm",
+        "1x 27m2s 137bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "1266s@116bpm78rpm",
+          "duration_secs": 1266,
+          "avg_hr": 116,
+          "max_hr": 139,
+          "avg_cadence": 77.51322,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "175s@150bpm82rpm",
+          "duration_secs": 172,
+          "avg_hr": 150,
+          "max_hr": 158,
+          "avg_cadence": 83.56977,
+          "zone": 2
+        },
+        {
+          "type": "WORK",
+          "label": "94s@134bpm58rpm",
+          "duration_secs": 92,
+          "avg_hr": 131,
+          "max_hr": 158,
+          "avg_cadence": 60.5,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "175s@150bpm82rpm",
+          "duration_secs": 175,
+          "avg_hr": 150,
+          "max_hr": 159,
+          "avg_cadence": 81.72,
+          "zone": 2
+        },
+        {
+          "type": "WORK",
+          "label": "94s@134bpm58rpm",
+          "duration_secs": 94,
+          "avg_hr": 134,
+          "max_hr": 161,
+          "avg_cadence": 57.98936,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "175s@150bpm82rpm",
+          "duration_secs": 179,
+          "avg_hr": 151,
+          "max_hr": 161,
+          "avg_cadence": 81.452515,
+          "zone": 3
+        },
+        {
+          "type": "WORK",
+          "label": "94s@134bpm58rpm",
+          "duration_secs": 96,
+          "avg_hr": 136,
+          "max_hr": 159,
+          "avg_cadence": 54.802082,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "1622s@137bpm74rpm",
+          "duration_secs": 1622,
+          "avg_hr": 137,
+          "max_hr": 162,
+          "avg_cadence": 73.840935,
           "zone": 1
         }
       ]
