@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-25T18:34:45.640886",
+  "generated_at": "2026-07-25T19:51:14.089655",
   "version": "3.86",
   "scan_hours": 72,
   "retention_days": 8,
@@ -625,6 +625,33 @@
           "avg_hr": 127,
           "max_hr": 127,
           "avg_cadence": 80.0,
+          "zone": 1
+        }
+      ]
+    },
+    {
+      "activity_id": "i169176340",
+      "date": "2026-07-25",
+      "type": "Ride",
+      "name": "Nulane Einweihung ",
+      "interval_summary": [
+        "1x 1h33m 120bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "5610s@120bpm71rpm",
+          "duration_secs": 5610,
+          "avg_hr": 120,
+          "max_hr": 146,
+          "avg_cadence": 70.91314,
+          "zone": 1
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 2,
+          "avg_hr": 128,
+          "max_hr": 128,
           "zone": 1
         }
       ]
