@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-26T09:28:22.141538",
+  "generated_at": "2026-07-26T10:57:08.778530",
   "version": "3.86",
   "scan_hours": 72,
   "retention_days": 8,
@@ -624,6 +624,26 @@
           "duration_secs": 2,
           "avg_hr": 128,
           "max_hr": 128,
+          "zone": 1
+        }
+      ]
+    },
+    {
+      "activity_id": "i169303256",
+      "date": "2026-07-26",
+      "type": "Ride",
+      "name": "Test-Runde",
+      "interval_summary": [
+        "1x 19m57s 108bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "1197s@108bpm71rpm",
+          "duration_secs": 1197,
+          "avg_hr": 108,
+          "max_hr": 130,
+          "avg_cadence": 71.26364,
           "zone": 1
         }
       ]
