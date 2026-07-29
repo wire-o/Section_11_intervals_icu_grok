@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-29T18:37:29.973584",
+  "generated_at": "2026-07-29T19:56:52.301828",
   "version": "3.86",
   "scan_hours": 72,
   "retention_days": 8,
@@ -559,6 +559,34 @@
           "max_hr": 148,
           "avg_cadence": 75.28643,
           "zone": 1
+        }
+      ]
+    },
+    {
+      "activity_id": "i170545184",
+      "date": "2026-07-29",
+      "type": "TrailRun",
+      "name": "DL Z2",
+      "interval_summary": [
+        "1x 49m33s 141bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "2973s@141bpm81rpm",
+          "duration_secs": 2973,
+          "avg_hr": 141,
+          "max_hr": 153,
+          "avg_cadence": 80.53636,
+          "zone": 2
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 1,
+          "avg_hr": 150,
+          "max_hr": 150,
+          "avg_cadence": 84.0,
+          "zone": 2
         }
       ]
     }
