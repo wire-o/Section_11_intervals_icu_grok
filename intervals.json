@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-02T16:34:08.896773",
+  "generated_at": "2026-08-02T17:41:11.592126",
   "version": "3.86",
   "scan_hours": 72,
   "retention_days": 8,
@@ -1149,6 +1149,34 @@
           "avg_hr": 123,
           "max_hr": 123,
           "avg_cadence": 69.0,
+          "zone": 1
+        }
+      ]
+    },
+    {
+      "activity_id": "i171800721",
+      "date": "2026-08-02",
+      "type": "Ride",
+      "name": "Abendrunde ",
+      "interval_summary": [
+        "1x 1h3m 113bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "3832s@113bpm73rpm",
+          "duration_secs": 3832,
+          "avg_hr": 113,
+          "max_hr": 132,
+          "avg_cadence": 72.55958,
+          "zone": 1
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 15,
+          "avg_hr": 117,
+          "max_hr": 118,
+          "avg_cadence": 73.2,
           "zone": 1
         }
       ]
