@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T08:43:55.833470",
+  "generated_at": "2026-08-07T09:40:11.278934",
   "version": "3.86",
   "scan_hours": 72,
   "retention_days": 8,
@@ -1185,6 +1185,63 @@
           "duration_secs": 1,
           "avg_hr": 122,
           "max_hr": 122,
+          "zone": 1
+        }
+      ]
+    },
+    {
+      "activity_id": "i173319486",
+      "date": "2026-08-07",
+      "type": "TrailRun",
+      "name": "Szentgotth\u00e1rd OL",
+      "interval_summary": [
+        "1x 32m23s 151bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "1943s@151bpm66rpm",
+          "duration_secs": 1943,
+          "avg_hr": 151,
+          "max_hr": 172,
+          "avg_cadence": 66.19506,
+          "zone": 3
+        }
+      ]
+    },
+    {
+      "activity_id": "i173319192",
+      "date": "2026-08-07",
+      "type": "TrailRun",
+      "name": "Szentgotth\u00e1rd OL",
+      "interval_summary": [
+        "1x 7m33s 113bpm",
+        "1x 9m24s 114bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "453s@113bpm72rpm",
+          "duration_secs": 453,
+          "avg_hr": 113,
+          "max_hr": 124,
+          "avg_cadence": 72.34426,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "564s@114bpm62rpm",
+          "duration_secs": 564,
+          "avg_hr": 114,
+          "max_hr": 128,
+          "avg_cadence": 62.289795,
+          "zone": 1
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 1,
+          "avg_hr": 117,
+          "max_hr": 117,
           "zone": 1
         }
       ]
