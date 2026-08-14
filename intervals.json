@@ -1,57 +1,9 @@
 {
-  "generated_at": "2026-08-13T23:22:26.295563",
+  "generated_at": "2026-08-14T00:03:22.841166",
   "version": "3.86",
   "scan_hours": 72,
   "retention_days": 8,
   "activities": [
-    {
-      "activity_id": "i172794023",
-      "date": "2026-08-05",
-      "type": "TrailRun",
-      "name": "Weichselbaum OL",
-      "interval_summary": [
-        "1x 35m11s 158bpm"
-      ],
-      "intervals": [
-        {
-          "type": "WORK",
-          "label": "2111s@158bpm60rpm",
-          "duration_secs": 2111,
-          "avg_hr": 158,
-          "max_hr": 170,
-          "avg_cadence": 59.731407,
-          "zone": 4
-        },
-        {
-          "type": "RECOVERY",
-          "duration_secs": 1,
-          "avg_hr": 168,
-          "max_hr": 168,
-          "avg_cadence": 82.0,
-          "zone": 4
-        }
-      ]
-    },
-    {
-      "activity_id": "i172793911",
-      "date": "2026-08-05",
-      "type": "Run",
-      "name": "Weichselbaum Road",
-      "interval_summary": [
-        "1x 16m28s 122bpm"
-      ],
-      "intervals": [
-        {
-          "type": "WORK",
-          "label": "988s@122bpm77rpm",
-          "duration_secs": 988,
-          "avg_hr": 122,
-          "max_hr": 144,
-          "avg_cadence": 76.85135,
-          "zone": 1
-        }
-      ]
-    },
     {
       "activity_id": "i172997602",
       "date": "2026-08-06",
