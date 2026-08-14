@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T18:02:33.463199",
+  "generated_at": "2026-08-14T19:09:48.510643",
   "version": "3.86",
   "scan_hours": 72,
   "retention_days": 8,
@@ -1100,6 +1100,34 @@
           "avg_hr": 128,
           "max_hr": 143,
           "avg_cadence": 81.3308,
+          "zone": 1
+        }
+      ]
+    },
+    {
+      "activity_id": "i175861950",
+      "date": "2026-08-14",
+      "type": "Ride",
+      "name": "Kleine Raabklamm",
+      "interval_summary": [
+        "1x 2h45m 114bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "9948s@114bpm70rpm",
+          "duration_secs": 9948,
+          "avg_hr": 114,
+          "max_hr": 140,
+          "avg_cadence": 70.28555,
+          "zone": 1
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 15,
+          "avg_hr": 125,
+          "max_hr": 127,
+          "avg_cadence": 63.4,
           "zone": 1
         }
       ]
