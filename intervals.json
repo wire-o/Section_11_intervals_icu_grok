@@ -1,57 +1,9 @@
 {
-  "generated_at": "2026-08-16T23:53:10.577378",
+  "generated_at": "2026-08-17T00:29:43.553702",
   "version": "3.86",
   "scan_hours": 72,
   "retention_days": 8,
   "activities": [
-    {
-      "activity_id": "i173652942",
-      "date": "2026-08-08",
-      "type": "TrailRun",
-      "name": "Rudersdorf OL",
-      "interval_summary": [
-        "1x 38m47s 144bpm"
-      ],
-      "intervals": [
-        {
-          "type": "WORK",
-          "label": "2327s@144bpm53rpm",
-          "duration_secs": 2327,
-          "avg_hr": 144,
-          "max_hr": 159,
-          "avg_cadence": 53.4783,
-          "zone": 2
-        },
-        {
-          "type": "RECOVERY",
-          "duration_secs": 1,
-          "avg_hr": 153,
-          "max_hr": 153,
-          "avg_cadence": 86.0,
-          "zone": 3
-        }
-      ]
-    },
-    {
-      "activity_id": "i173652786",
-      "date": "2026-08-08",
-      "type": "Run",
-      "name": "Rudersdorf Road",
-      "interval_summary": [
-        "1x 14m8s 112bpm"
-      ],
-      "intervals": [
-        {
-          "type": "WORK",
-          "label": "848s@112bpm68rpm",
-          "duration_secs": 848,
-          "avg_hr": 112,
-          "max_hr": 133,
-          "avg_cadence": 68.26273,
-          "zone": 1
-        }
-      ]
-    },
     {
       "activity_id": "i173959580",
       "date": "2026-08-09",
