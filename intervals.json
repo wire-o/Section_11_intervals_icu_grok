@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T18:18:23.198209",
+  "generated_at": "2026-08-21T19:03:08.341371",
   "version": "3.86",
   "scan_hours": 72,
   "retention_days": 8,
@@ -1050,6 +1050,34 @@
           "avg_hr": 132,
           "max_hr": 137,
           "avg_cadence": 78.71667,
+          "zone": 1
+        }
+      ]
+    },
+    {
+      "activity_id": "i178378833",
+      "date": "2026-08-21",
+      "type": "TrailRun",
+      "name": "Nacht & Nieselregen",
+      "interval_summary": [
+        "1x 1h 126bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "3622s@126bpm79rpm",
+          "duration_secs": 3622,
+          "avg_hr": 126,
+          "max_hr": 144,
+          "avg_cadence": 79.203476,
+          "zone": 1
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 1,
+          "avg_hr": 129,
+          "max_hr": 129,
+          "avg_cadence": 83.0,
           "zone": 1
         }
       ]
