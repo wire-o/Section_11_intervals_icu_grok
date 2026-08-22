@@ -1,29 +1,9 @@
 {
-  "generated_at": "2026-08-21T23:56:20.302785",
+  "generated_at": "2026-08-22T00:39:51.294426",
   "version": "3.86",
   "scan_hours": 72,
   "retention_days": 8,
   "activities": [
-    {
-      "activity_id": "i175549135",
-      "date": "2026-08-13",
-      "type": "Run",
-      "name": "Evening Run",
-      "interval_summary": [
-        "1x 57m39s 128bpm"
-      ],
-      "intervals": [
-        {
-          "type": "WORK",
-          "label": "3459s@128bpm81rpm",
-          "duration_secs": 3459,
-          "avg_hr": 128,
-          "max_hr": 143,
-          "avg_cadence": 81.3308,
-          "zone": 1
-        }
-      ]
-    },
     {
       "activity_id": "i175861950",
       "date": "2026-08-14",
