@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-08-26T14:11:12.768471",
+    "last_updated": "2026-08-26T14:59:01.609970",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.86"
@@ -162,16 +162,10 @@
         "distance_km": 14.5
       },
       "MountainBikeRide": {
-        "duration_decimal_hours": 2.24,
-        "count": 1,
-        "tss": 53,
-        "distance_km": 48.1
-      },
-      "Ride": {
-        "duration_decimal_hours": 7.98,
-        "count": 1,
-        "tss": 266,
-        "distance_km": 168.2
+        "duration_decimal_hours": 10.23,
+        "count": 2,
+        "tss": 319,
+        "distance_km": 216.3
       },
       "Run": {
         "duration_decimal_hours": 0.72,
@@ -445,7 +439,7 @@
     "p_max": 383,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-08-26T14:11:12.557961",
+    "calculation_timestamp": "2026-08-26T14:59:01.608693",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -505,7 +499,7 @@
     {
       "id": "i179725574",
       "date": "2026-08-25T09:34:29",
-      "type": "Ride",
+      "type": "MountainBikeRide",
       "name": "Training Session",
       "duration_hours": 7.98,
       "distance_km": 168.21,
