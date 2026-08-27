@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-27T03:32:54.312714",
+  "generated_at": "2026-08-27T14:37:43.053468",
   "version": "3.86",
   "scan_hours": 72,
   "retention_days": 8,
@@ -894,6 +894,33 @@
           "duration_secs": 4,
           "avg_hr": 103,
           "max_hr": 104,
+          "zone": 1
+        }
+      ]
+    },
+    {
+      "activity_id": "i180354982",
+      "date": "2026-08-27",
+      "type": "MountainBikeRide",
+      "name": "Jesolo MTB",
+      "interval_summary": [
+        "1x 4h23m 110bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "15791s@110bpm74rpm",
+          "duration_secs": 15791,
+          "avg_hr": 110,
+          "max_hr": 129,
+          "avg_cadence": 73.79706,
+          "zone": 1
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 2,
+          "avg_hr": 109,
+          "max_hr": 109,
           "zone": 1
         }
       ]
