@@ -1,36 +1,9 @@
 {
-  "generated_at": "2026-08-27T23:57:57.734148",
+  "generated_at": "2026-08-28T08:41:51.033781",
   "version": "3.86",
   "scan_hours": 72,
   "retention_days": 8,
   "activities": [
-    {
-      "activity_id": "i177684762",
-      "date": "2026-08-19",
-      "type": "Ride",
-      "name": "Zum Vibes",
-      "interval_summary": [
-        "1x 1h29m 110bpm"
-      ],
-      "intervals": [
-        {
-          "type": "WORK",
-          "label": "5354s@110bpm73rpm",
-          "duration_secs": 5354,
-          "avg_hr": 110,
-          "max_hr": 136,
-          "avg_cadence": 73.4896,
-          "zone": 1
-        },
-        {
-          "type": "RECOVERY",
-          "duration_secs": 1,
-          "avg_hr": 128,
-          "max_hr": 128,
-          "zone": 1
-        }
-      ]
-    },
     {
       "activity_id": "i178054714",
       "date": "2026-08-20",
