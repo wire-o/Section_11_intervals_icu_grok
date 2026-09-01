@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-01T18:10:10.452403",
+  "generated_at": "2026-09-01T20:59:01.103332",
   "version": "3.86",
   "scan_hours": 72,
   "retention_days": 8,
@@ -649,6 +649,34 @@
           "duration_secs": 104,
           "avg_hr": 98,
           "max_hr": 104,
+          "zone": 1
+        }
+      ]
+    },
+    {
+      "activity_id": "i182199881",
+      "date": "2026-09-01",
+      "type": "TrailRun",
+      "name": "Traillauf am Abend",
+      "interval_summary": [
+        "1x 39m36s 132bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "2376s@132bpm78rpm",
+          "duration_secs": 2376,
+          "avg_hr": 132,
+          "max_hr": 144,
+          "avg_cadence": 78.30595,
+          "zone": 1
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 1,
+          "avg_hr": 134,
+          "max_hr": 134,
+          "avg_cadence": 83.0,
           "zone": 1
         }
       ]
