@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T17:11:03.711799",
+  "generated_at": "2026-09-03T19:48:06.402030",
   "version": "3.86",
   "scan_hours": 72,
   "retention_days": 8,
@@ -679,6 +679,74 @@
           "max_hr": 138,
           "avg_cadence": 48.0,
           "zone": 2
+        }
+      ]
+    },
+    {
+      "activity_id": "i182972556",
+      "date": "2026-09-03",
+      "type": "TrailRun",
+      "name": "Kainbach bei Graz Trail Run",
+      "interval_summary": [
+        "1x 50m6s 141bpm",
+        "1x 20s 130bpm",
+        "1x 63s 132bpm",
+        "1x 30s 128bpm",
+        "1x 3m59s 130bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "3006s@141bpm78rpm",
+          "duration_secs": 3006,
+          "avg_hr": 141,
+          "max_hr": 158,
+          "avg_cadence": 78.26044,
+          "zone": 2
+        },
+        {
+          "type": "WORK",
+          "label": "20s@130bpm68rpm",
+          "duration_secs": 20,
+          "avg_hr": 130,
+          "max_hr": 136,
+          "avg_cadence": 67.7,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "63s@132bpm45rpm",
+          "duration_secs": 63,
+          "avg_hr": 132,
+          "max_hr": 144,
+          "avg_cadence": 44.88889,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "30s@128bpm63rpm",
+          "duration_secs": 30,
+          "avg_hr": 128,
+          "max_hr": 142,
+          "avg_cadence": 63.433334,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "239s@130bpm72rpm",
+          "duration_secs": 239,
+          "avg_hr": 130,
+          "max_hr": 143,
+          "avg_cadence": 72.22467,
+          "zone": 1
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 1,
+          "avg_hr": 135,
+          "max_hr": 135,
+          "avg_cadence": 80.0,
+          "zone": 1
         }
       ]
     }
