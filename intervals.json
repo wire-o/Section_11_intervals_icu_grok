@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07T10:42:47.380993",
+  "generated_at": "2026-09-07T16:03:32.227280",
   "version": "3.86",
   "scan_hours": 72,
   "retention_days": 8,
@@ -2131,6 +2131,50 @@
           "avg_hr": 130,
           "max_hr": 130,
           "avg_cadence": 81.0,
+          "zone": 1
+        }
+      ]
+    },
+    {
+      "activity_id": "i184234613",
+      "date": "2026-09-07",
+      "type": "Ride",
+      "name": "Kainbach bei Graz Radfahren",
+      "interval_summary": [
+        "1x 8m33s 119bpm",
+        "1x 6h42m 111bpm",
+        "1x 10m46s 108bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "513s@119bpm",
+          "duration_secs": 513,
+          "avg_hr": 119,
+          "max_hr": 148,
+          "zone": 1
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 1,
+          "avg_hr": 137,
+          "max_hr": 137,
+          "zone": 2
+        },
+        {
+          "type": "WORK",
+          "label": "24173s@111bpm",
+          "duration_secs": 24173,
+          "avg_hr": 111,
+          "max_hr": 149,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "646s@108bpm",
+          "duration_secs": 646,
+          "avg_hr": 108,
+          "max_hr": 133,
           "zone": 1
         }
       ]
