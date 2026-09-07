@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-09-07T19:54:42.385712",
+    "last_updated": "2026-09-07T22:20:16.114518",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.86"
@@ -141,10 +141,10 @@
     "total_activities": 12,
     "by_activity_type": {
       "EBikeRide": {
-        "duration_decimal_hours": 3.24,
-        "count": 5,
-        "tss": 85,
-        "distance_km": 80.3
+        "duration_decimal_hours": 2.58,
+        "count": 4,
+        "tss": 62,
+        "distance_km": 64.3
       },
       "MountainBikeRide": {
         "duration_decimal_hours": 0.69,
@@ -153,10 +153,10 @@
         "distance_km": 11.1
       },
       "Ride": {
-        "duration_decimal_hours": 0.62,
-        "count": 1,
-        "tss": 25,
-        "distance_km": 16.5
+        "duration_decimal_hours": 1.28,
+        "count": 2,
+        "tss": 48,
+        "distance_km": 32.5
       },
       "TrailRun": {
         "duration_decimal_hours": 3.58,
@@ -372,7 +372,7 @@
     "consistency_index": null,
     "consistency_details": {
       "planned_days": 0,
-      "completed_days": 2,
+      "completed_days": 3,
       "matched_days": 0,
       "note": "No planned workouts in period"
     },
@@ -430,7 +430,7 @@
     "p_max": 380,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-09-07T19:54:42.242398",
+    "calculation_timestamp": "2026-09-07T22:20:16.113398",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -447,7 +447,7 @@
     {
       "id": "i184318014",
       "date": "2026-09-07T18:35:38",
-      "type": "EBikeRide",
+      "type": "Ride",
       "name": "Training Session",
       "duration_hours": 0.66,
       "distance_km": 15.99,
