@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T15:32:59.993453",
+  "generated_at": "2026-09-20T18:17:24.533239",
   "version": "3.86",
   "scan_hours": 72,
   "retention_days": 8,
@@ -156,6 +156,26 @@
           "avg_hr": 133,
           "max_hr": 133,
           "avg_cadence": 81.0,
+          "zone": 1
+        }
+      ]
+    },
+    {
+      "activity_id": "i188588059",
+      "date": "2026-09-20",
+      "type": "TrailRun",
+      "name": "Longjogg Schaftalrunde",
+      "interval_summary": [
+        "1x 1h27m 134bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "5275s@134bpm76rpm",
+          "duration_secs": 5275,
+          "avg_hr": 134,
+          "max_hr": 150,
+          "avg_cadence": 76.39958,
           "zone": 1
         }
       ]
