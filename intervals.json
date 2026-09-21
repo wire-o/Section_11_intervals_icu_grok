@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T22:48:54.143810",
+  "generated_at": "2026-09-21T00:35:42.985493",
   "version": "3.86",
   "scan_hours": 72,
   "retention_days": 8,
@@ -40,54 +40,6 @@
           "avg_hr": 112,
           "max_hr": 134,
           "avg_cadence": 71.56287,
-          "zone": 1
-        }
-      ]
-    },
-    {
-      "activity_id": "i186326383",
-      "date": "2026-09-12",
-      "type": "TrailRun",
-      "name": "Bad Leonfelden OL",
-      "interval_summary": [
-        "1x 53m20s 155bpm"
-      ],
-      "intervals": [
-        {
-          "type": "WORK",
-          "label": "3200s@155bpm64rpm",
-          "duration_secs": 3200,
-          "avg_hr": 155,
-          "max_hr": 166,
-          "avg_cadence": 64.17062,
-          "zone": 3
-        }
-      ]
-    },
-    {
-      "activity_id": "i186326342",
-      "date": "2026-09-12",
-      "type": "TrailRun",
-      "name": "Bad Leonfelden OL",
-      "interval_summary": [
-        "1x 12m57s 122bpm"
-      ],
-      "intervals": [
-        {
-          "type": "WORK",
-          "label": "777s@122bpm71rpm",
-          "duration_secs": 777,
-          "avg_hr": 122,
-          "max_hr": 140,
-          "avg_cadence": 70.99232,
-          "zone": 1
-        },
-        {
-          "type": "RECOVERY",
-          "duration_secs": 1,
-          "avg_hr": 136,
-          "max_hr": 136,
-          "avg_cadence": 53.0,
           "zone": 1
         }
       ]
