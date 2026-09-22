@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T16:56:27.406742",
+  "generated_at": "2026-09-22T19:58:00.338229",
   "version": "3.86",
   "scan_hours": 72,
   "retention_days": 8,
@@ -108,6 +108,109 @@
           "avg_hr": 127,
           "max_hr": 141,
           "avg_cadence": 79.02619,
+          "zone": 1
+        }
+      ]
+    },
+    {
+      "activity_id": "i189300492",
+      "date": "2026-09-22",
+      "type": "Run",
+      "name": "Roseggerweg-Intervalle",
+      "interval_summary": [
+        "1x 16m57s 126bpm",
+        "4x 2m47s 154bpm",
+        "3x 92s 140bpm",
+        "1x 13m11s 131bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "1017s@126bpm76rpm",
+          "duration_secs": 1017,
+          "avg_hr": 126,
+          "max_hr": 140,
+          "avg_cadence": 75.571075,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "167s@154bpm82rpm",
+          "duration_secs": 164,
+          "avg_hr": 154,
+          "max_hr": 161,
+          "avg_cadence": 82.38415,
+          "zone": 3
+        },
+        {
+          "type": "WORK",
+          "label": "92s@140bpm59rpm",
+          "duration_secs": 92,
+          "avg_hr": 139,
+          "max_hr": 163,
+          "avg_cadence": 61.739132,
+          "zone": 2
+        },
+        {
+          "type": "WORK",
+          "label": "167s@154bpm82rpm",
+          "duration_secs": 165,
+          "avg_hr": 155,
+          "max_hr": 166,
+          "avg_cadence": 82.642426,
+          "zone": 3
+        },
+        {
+          "type": "WORK",
+          "label": "92s@140bpm59rpm",
+          "duration_secs": 90,
+          "avg_hr": 142,
+          "max_hr": 163,
+          "avg_cadence": 61.52222,
+          "zone": 2
+        },
+        {
+          "type": "WORK",
+          "label": "167s@154bpm82rpm",
+          "duration_secs": 173,
+          "avg_hr": 155,
+          "max_hr": 163,
+          "avg_cadence": 81.73988,
+          "zone": 3
+        },
+        {
+          "type": "WORK",
+          "label": "92s@140bpm59rpm",
+          "duration_secs": 93,
+          "avg_hr": 140,
+          "max_hr": 164,
+          "avg_cadence": 53.860214,
+          "zone": 2
+        },
+        {
+          "type": "WORK",
+          "label": "167s@154bpm82rpm",
+          "duration_secs": 167,
+          "avg_hr": 153,
+          "max_hr": 163,
+          "avg_cadence": 81.958084,
+          "zone": 3
+        },
+        {
+          "type": "WORK",
+          "label": "791s@131bpm77rpm",
+          "duration_secs": 791,
+          "avg_hr": 131,
+          "max_hr": 159,
+          "avg_cadence": 76.90518,
+          "zone": 1
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 1,
+          "avg_hr": 138,
+          "max_hr": 138,
+          "avg_cadence": 79.0,
           "zone": 1
         }
       ]
