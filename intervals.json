@@ -1,29 +1,9 @@
 {
-  "generated_at": "2026-09-23T21:51:35.045552",
+  "generated_at": "2026-09-24T00:03:58.544857",
   "version": "3.86",
   "scan_hours": 72,
   "retention_days": 8,
   "activities": [
-    {
-      "activity_id": "i187063034",
-      "date": "2026-09-15",
-      "type": "TrailRun",
-      "name": "P\u00fcmpel-Runde",
-      "interval_summary": [
-        "1x 37m41s 132bpm"
-      ],
-      "intervals": [
-        {
-          "type": "WORK",
-          "label": "2261s@132bpm79rpm",
-          "duration_secs": 2261,
-          "avg_hr": 132,
-          "max_hr": 147,
-          "avg_cadence": 78.816895,
-          "zone": 1
-        }
-      ]
-    },
     {
       "activity_id": "i187421793",
       "date": "2026-09-16",
