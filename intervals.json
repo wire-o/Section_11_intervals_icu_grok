@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T05:45:21.006536",
+  "generated_at": "2026-10-04T11:24:54.484883",
   "version": "3.86",
   "scan_hours": 72,
   "retention_days": 8,
@@ -1338,6 +1338,62 @@
           "avg_hr": 130,
           "max_hr": 130,
           "avg_cadence": 79.0,
+          "zone": 1
+        }
+      ]
+    },
+    {
+      "activity_id": "i193319276",
+      "date": "2026-10-04",
+      "type": "TrailRun",
+      "name": "Burgau OL",
+      "interval_summary": [
+        "1x 30m23s 146bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "1823s@146bpm60rpm",
+          "duration_secs": 1823,
+          "avg_hr": 146,
+          "max_hr": 162,
+          "avg_cadence": 59.67965,
+          "zone": 2
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 1,
+          "avg_hr": 162,
+          "max_hr": 162,
+          "avg_cadence": 88.0,
+          "zone": 4
+        }
+      ]
+    },
+    {
+      "activity_id": "i193319232",
+      "date": "2026-10-04",
+      "type": "TrailRun",
+      "name": "Bad Blumau OL",
+      "interval_summary": [
+        "1x 19m1s 119bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "1141s@119bpm80rpm",
+          "duration_secs": 1141,
+          "avg_hr": 119,
+          "max_hr": 140,
+          "avg_cadence": 79.65667,
+          "zone": 1
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 1,
+          "avg_hr": 138,
+          "max_hr": 138,
+          "avg_cadence": 82.0,
           "zone": 1
         }
       ]
