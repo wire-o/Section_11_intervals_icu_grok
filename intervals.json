@@ -1,29 +1,9 @@
 {
-  "generated_at": "2026-10-15T22:39:41.966140",
+  "generated_at": "2026-10-16T00:43:34.184785",
   "version": "3.86",
   "scan_hours": 72,
   "retention_days": 8,
   "activities": [
-    {
-      "activity_id": "i194785176",
-      "date": "2026-10-07",
-      "type": "Run",
-      "name": "Graz Road",
-      "interval_summary": [
-        "1x 55m43s 131bpm"
-      ],
-      "intervals": [
-        {
-          "type": "WORK",
-          "label": "3343s@131bpm83rpm",
-          "duration_secs": 3343,
-          "avg_hr": 131,
-          "max_hr": 153,
-          "avg_cadence": 82.55963,
-          "zone": 1
-        }
-      ]
-    },
     {
       "activity_id": "i195137396",
       "date": "2026-10-08",
