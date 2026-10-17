@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-10-17T06:08:55.162831",
+    "last_updated": "2026-10-17T10:34:41.518054",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.86"
@@ -191,7 +191,7 @@
       "atl": 34.78,
       "tsb": 5.13,
       "ramp_rate": -1.33,
-      "fitness_source": "From Intervals.icu API (reflects completed workouts)"
+      "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
     },
     "thresholds": {
       "eftp": 160.6,
@@ -247,10 +247,10 @@
       "diastolic": null,
       "baevsky_si": null,
       "lactate": null,
-      "respiration": null,
+      "respiration": 18.0,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 74,
+      "steps": 4978,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -382,12 +382,15 @@
         "note": "Compares 7d vs 28d Seiler TID to detect distribution shifts. pi_delta positive = more polarized acutely."
       }
     },
-    "consistency_index": null,
+    "consistency_index": 0.0,
     "consistency_details": {
-      "planned_days": 0,
+      "planned_days": 1,
       "completed_days": 0,
       "matched_days": 0,
-      "note": "No planned workouts in period"
+      "planned_dates": [
+        "2026-10-17"
+      ],
+      "completed_dates": []
     },
     "phase_detection": {
       "phase": "Taper",
@@ -407,8 +410,8 @@
           "hard_sessions_planned": 1,
           "race_proximity": 7,
           "next_week_load": null,
-          "plan_coverage_current_week": 0.2,
-          "plan_coverage_next_week": 0.6
+          "plan_coverage_current_week": 0.4,
+          "plan_coverage_next_week": 1.0
         },
         "data_quality": "good",
         "stream_agreement": false
@@ -443,13 +446,13 @@
     "p_max": 370,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-10-17T06:08:55.161289",
+    "calculation_timestamp": "2026-10-17T10:34:41.516989",
     "data_quality": {
       "hrv_data_points": 6,
       "rhr_data_points": 7,
       "activities_7d": 11,
       "activities_28d": 47,
-      "planned_workouts_7d": 0,
+      "planned_workouts_7d": 1,
       "ftp_history_days": {
         "indoor": 0,
         "outdoor": 0
@@ -1260,7 +1263,7 @@
       "sleep_quality": 2,
       "sleep_score": 80.0,
       "mental_energy": null,
-      "avg_sleeping_hr": null,
+      "avg_sleeping_hr": 58.0,
       "vo2max": null,
       "fatigue": null,
       "soreness": null,
@@ -1275,10 +1278,10 @@
       "diastolic": null,
       "baevsky_si": null,
       "lactate": null,
-      "respiration": null,
+      "respiration": 18.0,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 74,
+      "steps": 4978,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -1292,13 +1295,25 @@
   "planned_workouts": [
     {
       "id": 144858363,
-      "date": "2026-10-18",
+      "date": "2026-10-17",
       "name": "Intervalle oder Tempo",
       "type": "WORKOUT",
       "sport_type": "TrailRun",
       "planned_tss": null,
       "duration_hours": 0.75,
       "duration_formatted": "45m",
+      "workout_summary": null,
+      "description": ""
+    },
+    {
+      "id": 145387716,
+      "date": "2026-10-18",
+      "name": "Easy",
+      "type": "WORKOUT",
+      "sport_type": "TrailRun",
+      "planned_tss": null,
+      "duration_hours": 0.58,
+      "duration_formatted": "35m",
       "workout_summary": null,
       "description": ""
     },
@@ -1311,6 +1326,30 @@
       "planned_tss": 15,
       "duration_hours": 0.42,
       "duration_formatted": "25m",
+      "workout_summary": null,
+      "description": ""
+    },
+    {
+      "id": 145388043,
+      "date": "2026-10-20",
+      "name": "Trailrun Z1",
+      "type": "WORKOUT",
+      "sport_type": "TrailRun",
+      "planned_tss": null,
+      "duration_hours": 0.83,
+      "duration_formatted": "50m",
+      "workout_summary": null,
+      "description": ""
+    },
+    {
+      "id": 145387998,
+      "date": "2026-10-22",
+      "name": "Easy + strides",
+      "type": "WORKOUT",
+      "sport_type": "TrailRun",
+      "planned_tss": null,
+      "duration_hours": 0.67,
+      "duration_formatted": "40m",
       "workout_summary": null,
       "description": ""
     },
