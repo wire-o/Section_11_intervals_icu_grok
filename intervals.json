@@ -1,47 +1,9 @@
 {
-  "generated_at": "2026-10-18T23:25:56.417093",
+  "generated_at": "2026-10-19T01:26:36.523404",
   "version": "3.86",
   "scan_hours": 72,
   "retention_days": 8,
   "activities": [
-    {
-      "activity_id": "i195891827",
-      "date": "2026-10-10",
-      "type": "VirtualRide",
-      "name": "MyWhoosh - Test",
-      "interval_summary": [
-        "1x 61s 82bpm",
-        "1x 50s 107bpm"
-      ],
-      "intervals": [
-        {
-          "type": "WORK",
-          "label": "61s@81w31rpm",
-          "duration_secs": 61,
-          "avg_power": 81,
-          "max_power": 150,
-          "avg_hr": 82,
-          "max_hr": 100,
-          "avg_cadence": 31.311476,
-          "zone": 1,
-          "training_load": 0.2989,
-          "decoupling": -4.380906
-        },
-        {
-          "type": "WORK",
-          "label": "50s@128w50rpm",
-          "duration_secs": 50,
-          "avg_power": 128,
-          "max_power": 142,
-          "avg_hr": 107,
-          "max_hr": 111,
-          "avg_cadence": 50.04,
-          "zone": 1,
-          "training_load": 0.5868056,
-          "decoupling": 15.278474
-        }
-      ]
-    },
     {
       "activity_id": "i196238182",
       "date": "2026-10-11",
