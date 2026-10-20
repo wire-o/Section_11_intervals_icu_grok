@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T12:08:14.874354",
+  "generated_at": "2026-10-20T16:56:14.499378",
   "version": "3.86",
   "scan_hours": 72,
   "retention_days": 8,
@@ -1404,6 +1404,34 @@
           "avg_hr": 124,
           "max_hr": 124,
           "avg_cadence": 53.75,
+          "zone": 1
+        }
+      ]
+    },
+    {
+      "activity_id": "i199550336",
+      "date": "2026-10-20",
+      "type": "Ride",
+      "name": "Commute",
+      "interval_summary": [
+        "1x 7h48m 108bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "28129s@108bpm79rpm",
+          "duration_secs": 28129,
+          "avg_hr": 108,
+          "max_hr": 149,
+          "avg_cadence": 79.04411,
+          "zone": 1
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 3,
+          "avg_hr": 122,
+          "max_hr": 123,
+          "avg_cadence": 19.666666,
           "zone": 1
         }
       ]
