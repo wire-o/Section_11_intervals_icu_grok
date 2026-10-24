@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-10-24T14:40:42.302662",
+    "last_updated": "2026-10-24T17:34:40.548715",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.86"
@@ -87,10 +87,10 @@
     },
     {
       "metric": "race_week",
-      "value": 0,
+      "value": 1,
       "severity": "info",
       "threshold": "RACE_A within 7 days",
-      "context": "Race week D-0 of '11. AC'. Today: Race day, 0-0 TSS. Race effort",
+      "context": "Race week D-1 of '14. AC'. Today: Rest / minimal, 0-8 TSS. Z1 only if active",
       "persistence_days": null,
       "tier": 1
     }
@@ -251,7 +251,7 @@
       "diastolic": null,
       "baevsky_si": null,
       "lactate": null,
-      "respiration": null,
+      "respiration": 17.0,
       "body_fat_pct": null,
       "abdomen_cm": null,
       "steps": 19083,
@@ -408,10 +408,10 @@
         },
         "stream_2": {
           "planned_tss_delta": null,
-          "hard_sessions_planned": 2,
-          "race_proximity": 0,
+          "hard_sessions_planned": 1,
+          "race_proximity": 1,
           "next_week_load": null,
-          "plan_coverage_current_week": 0.4,
+          "plan_coverage_current_week": 0.2,
           "plan_coverage_next_week": 0.2
         },
         "data_quality": "good",
@@ -447,13 +447,13 @@
     "p_max": 367,
     "power_model_source": "wellness.sportInfo",
     "vo2max": 53.0,
-    "calculation_timestamp": "2026-10-24T14:40:42.119784",
+    "calculation_timestamp": "2026-10-24T17:34:40.547704",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
       "activities_7d": 8,
       "activities_28d": 42,
-      "planned_workouts_7d": 1,
+      "planned_workouts_7d": 0,
       "ftp_history_days": {
         "indoor": 0,
         "outdoor": 0
@@ -511,7 +511,8 @@
           "z7_time": 20
         }
       },
-      "has_intervals": true
+      "has_intervals": true,
+      "description": "1. Platz"
     },
     {
       "id": "i201110996",
@@ -1090,7 +1091,7 @@
       "sleep_quality": 3,
       "sleep_score": 79.0,
       "mental_energy": null,
-      "avg_sleeping_hr": null,
+      "avg_sleeping_hr": 55.0,
       "vo2max": 53.0,
       "fatigue": null,
       "soreness": null,
@@ -1105,7 +1106,7 @@
       "diastolic": null,
       "baevsky_si": null,
       "lactate": null,
-      "respiration": null,
+      "respiration": 17.0,
       "body_fat_pct": null,
       "abdomen_cm": null,
       "steps": 19083,
@@ -1121,21 +1122,9 @@
   ],
   "planned_workouts": [
     {
-      "id": 144151839,
-      "date": "2026-10-24",
-      "name": "11. AC",
-      "type": "RACE_A",
-      "sport_type": "TrailRun",
-      "planned_tss": null,
-      "duration_hours": 0.58,
-      "duration_formatted": "35m",
-      "workout_summary": null,
-      "description": ""
-    },
-    {
       "id": 144151896,
       "date": "2026-10-25",
-      "name": "12. AC",
+      "name": "14. AC",
       "type": "RACE_A",
       "sport_type": "TrailRun",
       "planned_tss": null,
@@ -1175,26 +1164,17 @@
   },
   "race_calendar": {
     "next_race": {
-      "name": "11. AC",
-      "date": "2026-10-24",
+      "name": "14. AC",
+      "date": "2026-10-25",
       "category": "RACE_A",
       "type": "TrailRun",
-      "days_until": 0,
-      "moving_time_seconds": 2100,
+      "days_until": 1,
+      "moving_time_seconds": 3300,
       "distance_meters": null
     },
     "all_races": [
       {
-        "name": "11. AC",
-        "date": "2026-10-24",
-        "category": "RACE_A",
-        "type": "TrailRun",
-        "days_until": 0,
-        "moving_time_seconds": 2100,
-        "distance_meters": null
-      },
-      {
-        "name": "12. AC",
+        "name": "14. AC",
         "date": "2026-10-25",
         "category": "RACE_A",
         "type": "TrailRun",
@@ -1217,14 +1197,14 @@
     },
     "race_week": {
       "active": true,
-      "event_name": "11. AC",
-      "event_date": "2026-10-24",
+      "event_name": "14. AC",
+      "event_date": "2026-10-25",
       "event_category": "RACE_A",
       "event_type": "TrailRun",
       "event_duration_class": "short_intense",
-      "event_moving_time_seconds": 2100,
-      "days_until_event": 0,
-      "current_day": "D-0",
+      "event_moving_time_seconds": 3300,
+      "days_until_event": 1,
+      "current_day": "D-1",
       "ctl_baseline": 38.2,
       "normal_weekly_tss": 267.5,
       "race_week_tss_budget": {
@@ -1236,30 +1216,30 @@
         "min": 0,
         "max": 0
       },
-      "projected_race_day_tsb": 8.2,
+      "projected_race_day_tsb": 11.3,
       "tsb_target_range": {
         "min": 5,
         "max": 15
       },
       "today": {
-        "label": "Race day",
+        "label": "Rest / minimal",
         "load_target_tss": {
           "min": 0,
-          "max": 0
+          "max": 8
         },
-        "zones": "Race effort",
-        "purpose": "Go/no-go assessment. Execute race plan."
+        "zones": "Z1 only if active",
+        "purpose": "Final rest, logistics, equipment check."
       },
       "carb_loading": {
         "applicable": false,
         "active": false,
         "starts": "D-4",
-        "start_date": "2026-10-20",
+        "start_date": "2026-10-21",
         "note": null
       },
       "opener": {
         "day": "D-2",
-        "date": "2026-10-22",
+        "date": "2026-10-23",
         "intensity": "more_intense"
       },
       "go_no_go": {
