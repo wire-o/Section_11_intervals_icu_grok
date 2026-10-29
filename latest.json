@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-10-29T07:16:48.076122",
+    "last_updated": "2026-10-29T14:30:40.959440",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.86"
@@ -175,8 +175,8 @@
       "ctl": 37.24,
       "atl": 27.74,
       "tsb": 9.5,
-      "ramp_rate": -1.67,
-      "fitness_source": "From Intervals.icu API (reflects completed workouts)"
+      "ramp_rate": -1.16,
+      "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
     },
     "thresholds": {
       "eftp": 158.7,
@@ -212,7 +212,7 @@
       }
     },
     "current_metrics": {
-      "weight_kg": 71.6,
+      "weight_kg": 71.8,
       "resting_hr": 54,
       "hrv": 28.0,
       "sleep_quality": 3,
@@ -232,10 +232,10 @@
       "diastolic": null,
       "baevsky_si": null,
       "lactate": null,
-      "respiration": null,
+      "respiration": 19.0,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 223,
+      "steps": 3793,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -367,19 +367,23 @@
         "note": "Compares 7d vs 28d Seiler TID to detect distribution shifts. pi_delta positive = more polarized acutely."
       }
     },
-    "consistency_index": null,
+    "consistency_index": 0.0,
     "consistency_details": {
-      "planned_days": 0,
+      "planned_days": 1,
       "completed_days": 2,
       "matched_days": 0,
-      "note": "No planned workouts in period"
+      "planned_dates": [
+        "2026-10-29"
+      ],
+      "completed_dates": [
+        "2026-10-27",
+        "2026-10-28"
+      ]
     },
     "phase_detection": {
       "phase": "Base",
-      "confidence": "medium",
-      "reason_codes": [
-        "NO_PLANNED_WORKOUTS"
-      ],
+      "confidence": "high",
+      "reason_codes": [],
       "basis": {
         "stream_1": {
           "ctl_slope": -0.73,
@@ -392,7 +396,7 @@
           "hard_sessions_planned": 0,
           "race_proximity": 72,
           "next_week_load": null,
-          "plan_coverage_current_week": 0.0,
+          "plan_coverage_current_week": 0.4,
           "plan_coverage_next_week": 0.0
         },
         "data_quality": "good",
@@ -404,9 +408,7 @@
       "dossier_agreement": null
     },
     "phase_detected": "Base",
-    "phase_triggers": [
-      "NO_PLANNED_WORKOUTS"
-    ],
+    "phase_triggers": [],
     "seasonal_context": "Late Season / Transition",
     "benchmark_indoor": {
       "current_ftp": null,
@@ -428,13 +430,13 @@
     "p_max": 365,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-10-29T07:16:48.075337",
+    "calculation_timestamp": "2026-10-29T14:30:40.567012",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
       "activities_7d": 8,
       "activities_28d": 39,
-      "planned_workouts_7d": 0,
+      "planned_workouts_7d": 1,
       "ftp_history_days": {
         "indoor": 0,
         "outdoor": 0
@@ -443,7 +445,7 @@
   },
   "recent_activities": [
     {
-      "id": "i202809701",
+      "id": "i203168662",
       "date": "2026-10-28T08:40:01",
       "type": "Ride",
       "name": "Training Session",
@@ -459,10 +461,10 @@
       "avg_speed": 21.7,
       "max_speed": 37.5,
       "avg_pace": null,
-      "avg_temp": 7.6720614,
+      "avg_temp": 7.6762104,
       "weather": null,
       "humidity": null,
-      "wind_speed": 0.36277404,
+      "wind_speed": 0.2246113,
       "work_kj": null,
       "calories": 258,
       "carbs_used": null,
@@ -1081,7 +1083,7 @@
     },
     {
       "date": "2026-10-29",
-      "weight_kg": null,
+      "weight_kg": 71.8,
       "resting_hr": 54,
       "hrv_rmssd": 28.0,
       "hrv_sdnn": null,
@@ -1090,7 +1092,7 @@
       "sleep_quality": 3,
       "sleep_score": 76.0,
       "mental_energy": null,
-      "avg_sleeping_hr": null,
+      "avg_sleeping_hr": 58.0,
       "vo2max": null,
       "fatigue": null,
       "soreness": null,
@@ -1105,10 +1107,10 @@
       "diastolic": null,
       "baevsky_si": null,
       "lactate": null,
-      "respiration": null,
+      "respiration": 19.0,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 223,
+      "steps": 3793,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -1119,7 +1121,32 @@
       "readiness": null
     }
   ],
-  "planned_workouts": [],
+  "planned_workouts": [
+    {
+      "id": 149613389,
+      "date": "2026-10-29",
+      "name": "Aerobic run",
+      "type": "WORKOUT",
+      "sport_type": "TrailRun",
+      "planned_tss": null,
+      "duration_hours": 0.92,
+      "duration_formatted": "55m",
+      "workout_summary": null,
+      "description": ""
+    },
+    {
+      "id": 149613530,
+      "date": "2026-10-31",
+      "name": "Easy",
+      "type": "WORKOUT",
+      "sport_type": "TrailRun",
+      "planned_tss": null,
+      "duration_hours": 0.58,
+      "duration_formatted": "35m",
+      "workout_summary": null,
+      "description": ""
+    }
+  ],
   "workout_summary_stats": {
     "attempted": 0,
     "success": 0,
