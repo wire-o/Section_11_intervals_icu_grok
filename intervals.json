@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T08:03:25.847594",
+  "generated_at": "2026-11-03T16:08:52.173627",
   "version": "3.86",
   "scan_hours": 72,
   "retention_days": 8,
@@ -963,6 +963,33 @@
           "zone": 1,
           "training_load": 0.03679375,
           "decoupling": 66.985725
+        }
+      ]
+    },
+    {
+      "activity_id": "i205285892",
+      "date": "2026-11-03",
+      "type": "Ride",
+      "name": "Kainbach bei Graz Road",
+      "interval_summary": [
+        "1x 7h54m 111bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "28494s@111bpm73rpm",
+          "duration_secs": 28494,
+          "avg_hr": 111,
+          "max_hr": 139,
+          "avg_cadence": 72.65138,
+          "zone": 1
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 1,
+          "avg_hr": 116,
+          "max_hr": 116,
+          "zone": 1
         }
       ]
     }
