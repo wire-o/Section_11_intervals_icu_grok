@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T02:09:03.369199",
+  "generated_at": "2026-11-09T09:41:24.181564",
   "version": "3.86",
   "scan_hours": 72,
   "retention_days": 8,
@@ -865,6 +865,130 @@
     },
     {
       "activity_id": "i207551375",
+      "date": "2026-11-08",
+      "type": "TrailRun",
+      "name": "Longjogg ",
+      "interval_summary": [
+        "3x 1m55s 133bpm",
+        "1x 4m17s 131bpm"
+      ],
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 510,
+          "avg_power": 264,
+          "max_power": 423,
+          "avg_hr": 117,
+          "max_hr": 131,
+          "avg_cadence": 75.78261,
+          "zone": 1,
+          "training_load": 9.201389,
+          "decoupling": 6.248306
+        },
+        {
+          "type": "WORK",
+          "label": "115s@309w77rpm",
+          "duration_secs": 113,
+          "avg_power": 308,
+          "max_power": 338,
+          "avg_hr": 131,
+          "max_hr": 135,
+          "avg_cadence": 76.70796,
+          "zone": 1,
+          "training_load": 2.769947,
+          "decoupling": 6.4502296
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 213,
+          "avg_power": 270,
+          "max_power": 316,
+          "avg_hr": 125,
+          "max_hr": 131,
+          "avg_cadence": 79.41784,
+          "zone": 1,
+          "training_load": 4.019639,
+          "decoupling": -10.169919
+        },
+        {
+          "type": "WORK",
+          "label": "115s@309w77rpm",
+          "duration_secs": 116,
+          "avg_power": 309,
+          "max_power": 341,
+          "avg_hr": 132,
+          "max_hr": 138,
+          "avg_cadence": 74.94827,
+          "zone": 1,
+          "training_load": 2.7887166,
+          "decoupling": 1.2682955
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 2701,
+          "avg_power": 255,
+          "max_power": 381,
+          "avg_hr": 129,
+          "max_hr": 144,
+          "avg_cadence": 76.96751,
+          "zone": 1,
+          "training_load": 47.560223,
+          "decoupling": 7.980694
+        },
+        {
+          "type": "WORK",
+          "label": "115s@309w77rpm",
+          "duration_secs": 115,
+          "avg_power": 311,
+          "max_power": 345,
+          "avg_hr": 135,
+          "max_hr": 140,
+          "avg_cadence": 77.930435,
+          "zone": 1,
+          "training_load": 2.8189726,
+          "decoupling": 0.2804416
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 3,
+          "avg_power": 296,
+          "max_power": 298,
+          "avg_hr": 137,
+          "max_hr": 137,
+          "avg_cadence": 76.666664,
+          "zone": 1,
+          "training_load": 0.07496863,
+          "decoupling": 0.67114097
+        },
+        {
+          "type": "WORK",
+          "label": "257s@279w79rpm",
+          "duration_secs": 257,
+          "avg_power": 279,
+          "max_power": 327,
+          "avg_hr": 131,
+          "max_hr": 138,
+          "avg_cadence": 78.657585,
+          "zone": 1,
+          "training_load": 5.213159,
+          "decoupling": -5.561375
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 1120,
+          "avg_power": 233,
+          "max_power": 425,
+          "avg_hr": 127,
+          "max_hr": 143,
+          "avg_cadence": 77.97678,
+          "zone": 1,
+          "training_load": 17.85532,
+          "decoupling": 4.4179826
+        }
+      ]
+    },
+    {
+      "activity_id": "i207689757",
       "date": "2026-11-08",
       "type": "TrailRun",
       "name": "Longjogg ",
