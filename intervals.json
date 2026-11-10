@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T10:22:55.073992",
+  "generated_at": "2026-11-10T17:59:32.079817",
   "version": "3.86",
   "scan_hours": 72,
   "retention_days": 8,
@@ -912,6 +912,69 @@
           "zone": 1,
           "training_load": 17.85532,
           "decoupling": 4.4179826
+        }
+      ]
+    },
+    {
+      "activity_id": "i208321676",
+      "date": "2026-11-10",
+      "type": "EBikeRide",
+      "name": "Commute",
+      "interval_summary": [
+        "1x 10m30s 106bpm",
+        "1x 7h23m 99bpm",
+        "1x 11m22s 110bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "630s@98w74rpm",
+          "duration_secs": 630,
+          "avg_power": 98,
+          "max_power": 230,
+          "avg_hr": 106,
+          "max_hr": 132,
+          "avg_cadence": 74.146034,
+          "zone": 1,
+          "training_load": 5.418311,
+          "decoupling": -16.896355
+        },
+        {
+          "type": "WORK",
+          "label": "26629s@82w65rpm",
+          "duration_secs": 26629,
+          "avg_power": 82,
+          "max_power": 217,
+          "avg_hr": 99,
+          "max_hr": 118,
+          "avg_cadence": 65.239265,
+          "zone": 1,
+          "training_load": 5.788125
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 2,
+          "avg_power": 122,
+          "max_power": 126,
+          "avg_hr": 104,
+          "max_hr": 104,
+          "avg_cadence": 80.0,
+          "zone": 1,
+          "training_load": 0.013068056,
+          "decoupling": -5.882353
+        },
+        {
+          "type": "WORK",
+          "label": "682s@121w80rpm",
+          "duration_secs": 682,
+          "avg_power": 121,
+          "max_power": 242,
+          "avg_hr": 110,
+          "max_hr": 119,
+          "avg_cadence": 79.961876,
+          "zone": 1,
+          "training_load": 7.6052713,
+          "decoupling": -8.066546
         }
       ]
     }
